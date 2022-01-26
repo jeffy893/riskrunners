@@ -1,0 +1,742 @@
+
+Chemopreventive Potential of Volatile Oil From Black Cumin (Nigella
+sativa L.) Seeds Against Rat Colon Carcinogenesis
+
+Elsayed I. Salim and Shoji Fukushima
+
+Abstract: Chemopreventive effects of orally administered
+Nigella sativa oil on the induction and development of
+1,2-dimethylhydrazine-induced aberrant crypt foci (ACF),
+putative preneoplastic lesions for colon cancer, were investi-
+gated in Fischer 344 rats. Starting at 6 wk of age, 45 male
+rats (groups 1–3) were subcutaneously injected with DMH
+once a week for 3 wk. Group 1 (15 rats) served as a carcino-
+gen control group without N. sativa administration. Group 2
+or 3 (15 rats each) were given the oil in the postinitiation
+stage or in the initiation stage, respectively. Animals of group
+4 (11 rats) were injected with 0.9% saline and received N.
+sativa oil from the beginning until the termination. At sacri-
+fice, 14 wk after the start, the total numbers of ACF as well as
+those with at least four crypts were significantly reduced in
+group 2 (P < 0.01). However, treatment with N. sativa oil in
+the initiation stage (group 3) did not exhibit significant inhib-
+itory effects except on foci with only one aberrant crypt.
+Immunohistochemical analysis of 5-bromo-2′-deoxyuridine
+labeling in colonic crypts revealed the N. sativa oil to have
+significant antiproliferative activity in both initiation and
+postinitiation stages and especially in the latter. Histological
+examination revealed no pathological changes in the liver,
+kidneys, spleen, or other organs of rats treated with N. sativa.
+In addition, biochemical parameters of blood and urine as
+well as body weight gain were not affected. These findings
+demonstrate that the volatile oil of N. sativa has the ability to
+inhibit colon carcinogenesis of rats in the postinitiation
+stage, with no evident adverse side effects, and that the inhi-
+bition may be associated, in part, with suppression of cell
+proliferation in the colonic mucosa.
+
+Introduction
+
+Colorectal cancer is now the third most common malig-
+nant neoplasm in the world (1). It has been proposed that this
+disease may be partly caused by daily exposure to food car-
+cinogens (2) and, although these cannot be eliminated from
+our environment, chemoprevention is an alternative ap-
+
+proach to decreasing carcinogenic effects. Experimentally,
+natural chemopreventive agents have been shown to exert in-
+hibitory effects on the initiation, promotion, and progression
+stages in carcinogenesis (3). To avoid adverse side effects, at-
+tention has been concentrated on nontoxic medicinal plants
+as candidates for cancer chemoprevention.
+
+Nigella sativa L. is an annual of the family of
+Ranunculaceae herbaceous plants growing in many coun-
+tries, especially those ringing the Mediterranean Sea. Its
+black seeds (also termed black cumin seeds) are also em-
+ployed in some parts of Asia, as well as France and Germany,
+as a condiment. In fact it appears that the early Egyptians al-
+ready used these seeds as a flavoring agent, and it is now find-
+ing application by Syrians for cheese flavoring and by Amer-
+icans for addition to bakery products (4). Furthermore, the
+black seeds of N. sativa are reputed to have many medicinal
+purposes (5), and extracted volatile oils possess various
+antimicrobial, anthelmintic, diuretic, diaphonetic, and
+anti-asthmatic actions (6).
+
+On the experimental level, aqueous extracts of the black
+seeds have been found to exert significant antiulcer effects in
+rats (7), and the extracted oil was found to ameliorate
+cisplatin-induced toxicity in mice (8) and shows significant
+antimicrobial activities against different types of bacteria and
+pathogenic yeasts (9). Recently, extracted proteins from N.
+sativa demonstrated effects on the immune system, the
+proliferative response of spleen lymphocytic cells to
+allogenic cells and their IL-3 production being elevated in
+BALB/c mice (10). Also, the N. sativa oil was shown to pro-
+tect against murine cytomegalovirus infection by increasing
+the numbers of CD4+ helper T-cells, numbers and suppressor
+function of macrophages cells, and serum levels of inter-
+feron-γ production (11). Furthermore, the N. sativa seed vol-
+atile oil has been found to possess antineoplastic effects in vi-
+tro against Ehrlich ascites carcinoma, Dalton’s lymphoma
+ascites, and sarcoma (S-180) cell lines (12).
+
+Themajorityof studieson thebiological effectsofN.sativa
+used the crude oil extracts, however, and information as to the
+contributions of active forms is limited. The major compo-
+
+NUTRITION AND CANCER, 45(2), 195–202
+Copyright © 2003, Lawrence Erlbaum Associates, Inc.
+
+E. I. Salim is affiliated with the Laboratory of Experimental and Molecular Carcinogenesis, Department of Zoology, Faculty of Science, Tanta University,
+Tanta 31527-Egypt; and the First Department of Pathology, Osaka City University Medical School, 1-4-3 Asahi-machi, Abeno-Ku, Osaka 545-8585, Japan. S.
+Fukushima is affiliated with the First Department of Pathology, Osaka City University Medical School, 1-4-3 Asahi-machi, Abeno-Ku, Osaka 545-8585, Japan.
+
+
+
+nents of Egyptian and Russian N. sativa have, however, been
+identified. Babayan et al. (4) studied fatty acid and amino acid
+compositions of N. sativa L. seeds from Egypt, and from other
+parts of the Middle East, and reported a composition of 21%
+protein, 35.5% fat, 6.6% fiber, 5.5% moisture, and 3.7% ash,
+with the rest (27.7%)being total carbohydrates.Theseedsalso
+contain minerals, vitamins, and polyphenols as other constitu-
+ents. Similar data were obtained on analysis of Saudi Arabian
+(13) and Turkish black seeds (14).
+
+Aberrant crypt foci (ACF) in the colonic mucosa were
+first observed in the carcinogen-treated rodent colon (15),
+and Pretlow and co-workers (16) showed that these lesions
+are also present in the colonic mucosa of patients with colon
+cancers. Large ACF (≥4 AC) are likely precursors of tumors
+(17). Molecular analysis has revealed alteration of the adeno-
+matous polyposis coli (APC)/β-catenin pathway and gene
+mutation to be one of the earliest events in colorectal carci-
+noma development, being found in dysplastic ACF (18).
+Therefore, ACF in the rodent colon can be used for colon
+carcinogenesis, and many chemopreventive agents have been
+identified in this way (19,20).
+
+Enhancement of cell proliferation is widely understood to
+bean importantdeterminantof targetorgancarcinogenicityby
+exerting a positive influence on the rate of gene alteration (21).
+Genotoxic carcinogenic substances generally enhance cell
+proliferation specifically in their target tissues. For example,
+1,2-dimethylhydrazine (DMH) enhances cellular prolifera-
+tion in the colon but not in the liver or kidney (22). Increase in
+the numbers of cycling cells, particularly in the S-phase, lead-
+ing to expansion of the cell-proliferating zone and increased
+crypt heights, is considered to be a risk factor for tumor devel-
+opment along with deregulation of apoptosis (23).
+
+In the present study we studied the possible inhibitory ef-
+fects of the volatile oil of N. sativa on DMH-induced rat co-
+lon carcinogenesis using ACF as surrogate end-point lesions
+in place of colon cancer and BrdU labeling as an index of cel-
+lular proliferation. We also checked possible toxic side ef-
+fects of N. sativa with attention concentrated on quantitative
+values for biochemical parameters of the blood and urine as
+well as growth rates and histopathology of different body or-
+gans and tissues.
+
+Materials and Methods
+
+Animals
+
+A total of 56 male 5-wk-old F-344 rats (Charles River,
+Hino, Shiga, Japan) were housed five per plastic cage with
+wood chips for bedding in an animal room with a 12-h
+light/12-h dark cycle at 22 ± 2°C and 45 ± 5% relative
+humidity. Body weight and food intake were measured
+weekly during the experiment. Diet (CE2 pellet diet, Clea,
+Inc., Osaka) and water were available ad libitum.
+
+Chemicals
+
+DMH dihydrochloride (purity 99%) was purchased from
+Wako Pure Chemical Industries (Osaka, Japan). Crude extra
+virgin extracted oil of N. sativa was purchased from Kahira
+Co. (Cairo, Egypt). The oil was stored shaded from light in
+dark glass bottles at room temperature between 15°C and
+20°C. The chemical composition of the N. sativa oil was pre-
+viously reported (13,14). A calculated dose of 200 mg/kg
+body weight of the oil was diluted in 0.5% carboxymethyl
+cellulose (CMC) as a solvent. The oil in 0.5 ml of the solvent
+was given daily to the rats by intragastric gavage (i.g.). The
+200-mg/kg body weight dose of the oil was estimated after
+showing no signs of toxicity when administered to the same
+rat strain in a previous preliminary short-term toxicity test in
+our laboratory using different doses of the oil (data not
+shown).
+
+Experimental Protocol
+
+The experimental design is shown in Fig. 1. Briefly, 56
+male rats were divided into 4 groups at 5 wk of age. After 1
+wk of laboratory acclimation, animals of groups 1–3 (15 rats
+each) received DMH (20 mg/kg body weight) subcutane-
+ously (s.c.) once a week for 3 wk between Weeks 4 and 6 af-
+ter the start of the experiment. Rats in group 4 (11 rats) were
+injected with 0.9% saline (vehicle) following the same
+schedule. Group 1 received no N. sativa oil and served as a
+carcinogen positive control. Rats of group 2 were adminis-
+
+196 Nutrition and Cancer 2003
+
+Figure 1. Experimental design. Black with white dots: freshly prepared N. sativa oil, 200 mg/kg body wt administered daily i.g. in 0.5 ml 5% CMC. White with
+black dots: No treatment (basal diet). Black triangle: DMH, 20 mg/kg body wt, s.c. White triangle: 0.09% saline (vehicle). S: Sacrifice; blood and urine analysis.
+
+
+
+tered the freshly diluted N. sativa oil in CMC for 8 wk, after
+the carcinogen administration (postinitiation administra-
+tion), and group 3 received the N. sativa oil from the start of
+the experiment until Week 6 (before and during the initiation
+period), 1 day after the last injection of DMH. Animals of
+group 4 received the N. sativa oil from the beginning to the
+end of the experiment to determine any side effects. All ani-
+mals were sacrificed under ether anesthesia at Week 14. Five
+rats from each group received a single injection of
+5-bromo-2′-deoxyuridine (BrdU) (Sigma Chemicals, St.
+Louis, MO; 100 mg/kg body weight i.p.) 1 h before sacrifice.
+
+Analysis of Blood and Urine
+
+Blood was collected at the time of autopsy from 10 rats
+that had not received BrdU (due to its high toxicity) in groups
+1–3 and from 6 rats in group 4. Blood in heparinized syringes
+was immediately centrifuged at 4,000 rpm for 15 min at 4°C.
+Supernatant plasma was collected and preserved frozen at
+–80°C before measurement of different electrolytes (Hitachi
+electrolyte analyzer, Tokyo), total protein, albumin (Hitachi
+736), and globulin (Aloka ARC 950, Tokyo).
+
+Fresh urine samples were collected from all animals by
+forced urination in the morning 1 day before the termination.
+The urine pH was measured (Horiba model F-15 pH meter,
+Tokyo) and the urine samples were preserved frozen at
+–80°C until analyzed for electrolytes and proteins as men-
+tioned above.
+
+Histological Evaluation
+
+The liver, spleen, kidneys, lungs, and testes were removed
+and weighed, routinely embedded in paraffin, sectioned at
+3–4 µm in thickness, and prepared for histological examina-
+tion after staining with hematoxylin and eosin.
+
+ACF Assay
+
+After removal and fixation for at least 24 h at 4°C, colons
+were stained in 0.2% methylene blue (in H2O) for 3–5 min,
+divided into proximal, intermediate, and distal segments, and
+examined for ACF under a light microscope. Aberrant crypts
+were distinguished from the surrounding normal crypts by
+their increased size and easily discernable pericryptal zone.
+The numbers in each segment as well as the number of aber-
+rant crypts in each focus were determined. Immediately after
+scoring ACF, samples collected from the proximal, interme-
+diate, and distal colons were prepared for routine histological
+examination and BrdU immunohistochemistry.
+
+Immunohistochemical Staining for BrdU
+
+A mouse monoclonal antibody to BrdU (code no. M0744,
+Dako A/S, Denmark) was used with the avidin-biotin com-
+plex (ABC) method. Briefly, sections after deparaffinization
+and hydration were incubated with 0.3% hydrogen peroxide
+for 30 min to block endogenous peroxidase activity. They
+
+were then incubated with 10% normal horse serum at room
+temperature for 30 min to block background staining and
+overnight at 4°C with BrdU antibody diluted 1:500 in
+tris(hydroxymethyl) aminomethane-buffered saline (TBS).
+After exposure for 30 min at room temperature to
+biotinylated horse anti-mouse IgG (Vector, Inc., Burlingame,
+CA), sections were incubated with ABC at 1:25 dilution.
+Each step was followed by washing with TBS. Peroxidase
+activity was visualized by treatment with a 0.02% solution of
+diaminobenzidine tetrahydrochloride containing 0.05% hy-
+drogen peroxide. The nuclei were counterstained with
+hematoxylin.
+
+Analysis of Cell Proliferation in Colon
+Crypts
+
+To score cell proliferation, cells stained for BrdU expres-
+sion were counted from the base up each side of midaxially
+sectioned colon crypts to the mouth of the crypt. Counts were
+made for all complete crypts found in four or five sections
+from each of the proximal, intermediate, and distal colon seg-
+ments of every rat injected with BrdU. The total numbers of
+the proliferating cells were divided by the total numbers of
+the cells per crypt X100 to generate the BrdU labeling index
+(LI).
+
+Statistical Analysis
+
+The significance of differences between group mean val-
+ues for ACF and immunohistochemistry data was analyzed
+using the SuperANOVA Duncan New Multiple Range analy-
+sis (StatView ver. 5J, SAS Institute, NC).
+
+Results
+
+General Observations
+
+All rats were healthy and survived to the final sacrifice.
+The growth rates were consistent during the experiment with
+no differences among the groups, and final body weights
+demonstrated no intergroup variation (Table 1). Average ab-
+solute and relative organ weights also did not show any sig-
+nificant differences among the groups (Table 1). Food con-
+sumption and water intake were the same for all groups (data
+not shown).
+
+ACF Assay
+
+Table 2 summarizes data for the effects of N. sativa ad-
+ministration on induction or development of ACF in the co-
+lon. The rats treated with DMH (groups 1–3) showed 100%
+incidence of ACF, in contrast to the negligible incidence of
+ACF in rats of group 4 without DMH treatment, with only
+two rats having two incidental foci. In the animals adminis-
+tered N. sativa after DMH initiation (group 2), average total
+numbers of ACF per colon as well as the numbers of foci con-
+
+Vol. 45, No. 2 197
+
+
+
+taining 1, 3, and ≥4 crypts were significantly decreased com-
+pared with group 1 (DMH alone). Numbers of foci contain-
+ing two crypts were also decreased, although this did not
+reach statistical significance. The inhibition was marked
+along the length of the colon and was not restricted to any
+particular region. Pre- and concurrent administration of N.
+sativa in group 2 caused slight inhibition in all size groups of
+ACF but was only statistically significant for those compris-
+ing one aberrant crypt.
+
+BrdU Labeling Indexes
+
+Immunohistochemical examination showed BrdU-la-
+beled nuclei to be mostly located in the lower third of the
+crypts (Fig. 2A and B). Fig. 3 illustrates differences in ratios
+of BrdU-labeled nuclei in rat colonic crypts.
+Postadministration of N. sativa (group 2) was found to re-
+duce significantly the BrdU LI in the mucosal crypts com-
+pared with the group 1 value (P < 0.01). Pre- and simulta-
+neous treatment (group 3) was also found to cause a
+significant reduction in the BrdU LI of the colonic epithelium
+of rats (P < 0.05).
+
+Plasma Biochemistry and Urine
+Concentration Levels
+
+Plasma values of total protein, creatinine, albumin, and al-
+bumin/globulin (A/G) ratio were not changed among the
+groups (Table 3). Slight nonsignificant reduction in calcium
+ion levels was noted in rats of group 3. Urinary excretion lev-
+els of electrolytes, urinary protein, and creatinine were also
+not changed among the groups (Table 4).
+
+Histological Examination of the Other
+Organs
+
+Gross and microscopic examination of the liver, kidneys,
+spleen, testes, and accessory sex organs as well as the lungs,
+stomach, intestine, and thyroid gland in all groups revealed
+no histopathological changes.
+
+Discussion
+
+The present study indicates that N. sativa administration is
+effective for inhibition of colon carcinogenesis during the
+postinitiation phase. Thus, development of ACF, irrespective
+of thesizeor locationwithin thecolon,wassuppressed inasso-
+ciation with a prominent reduction of cellular proliferation.
+
+ACFs are linked with colon cancer development from the
+viewpoint of their dysplastic appearance, relation to cellular
+proliferation, and genetic alterations such as expression of
+cyclin D1 (24), and APC and K-ras gene mutations (25). The
+incidence of colon tumors in the rats is especially known to
+correlate with numbers of large ACFs (≥4 crypts/focus),
+which are more likely to progress into tumors and to demon-
+strate elevation in cell proliferation (17,26). Reduction of
+ACF number and multiplicity generally demonstrates a rela-
+tionship with cancer chemoprevention (27–29). Therefore,
+the finding of significant reduction of large ACFs observed
+here may point to an inhibitory effect on tumor yield in the
+long term.
+
+BrdU LI is widely used as a biomarker for estimating cell
+proliferation (30). Postadministration of N. sativa markedly
+inhibited the LI in all colonic regions. Interestingly, this was
+also the case for pre- and simultaneous administration of N.
+
+198 Nutrition and Cancer 2003
+
+Table 1. Final Body Weights and Absolute and Relative Organ Weights
+
+Organ Weights
+
+Treatment No. of Rats Final Body Weights Liver Kidneys Spleen Lungs
+
+G1 DMH alone 15 318 ± 17 9 ± 0.4a (2.9)b 2 ± 0.1 (0.6) 0.5 ± 0.2 (0.2) 1.6 ± 0.1 (0.5)
+G2 DMH → (post) 15 314 ± 14 9 ± 0.6 (2.8) 2 ± 0.2 (0.6) 0.4 ± 0.2 (0.1) 1.7 ± 0.6 (0.5)
+G3 DMH + (pre- + simultaneous) 15 310 ± 26 10 ± 0.8 (3.1) 2 ± 0.2 (0.7) 0.5 ± 0.1 (0.2) 1.7 ± 0.2 (0.6)
+G4 Saline → (continuous) 11 311 ± 17 9 ± 0.6 (3.0) 2 ± 0.1 (0.6) 0.4 ± 0.2 (0.2) 1.9 ± 0.4 (0.6)
+
+a: Absolute wt (mean ± SD).
+b: Relative wt: ratio of organ wt/body wt (%).
+
+Table 2. Effects of N. sativa Oil on the Induction of ACF in the Colons of Rats Treated With DMH
+
+No. of Aberrant Crypts per Focus
+
+Treatment No. of Rats Total No. of ACF 1 2 3 ≥4
+
+G1 DMH alone 15 401 ± 135a 163 ± 67 131 ± 49 74 ± 23 33 ±10
+G2 DMH (post)→ 15 296 ± 76b 109 ± 29b 112 ± 31 55 ± 17b 21 ± 11b
+G3 DMH + (pre- + simultaneous) 15 340 ± 132 120 ± 55b 122 ± 44 71 ± 30 28 ± 16
+G4 Saline→ (continuous) 11 0.2 ± 0.5 0.0 ± 0.0 0.1 ± 0.3 0.1 ± 0.3 0.0 ± 0.0
+
+a: Mean no. per rat ± SD.
+b: Significant vs. G1 at P < 0.01.
+
+
+
+sativa (group 3). Modulation of cell proliferation by cancer
+chemopreventive agents in colon epithelium is widely con-
+sidered to be a mechanism underlying the protective action
+(20,31). In group 3 N. sativa oil had no significant effect on
+tumorigenesis when administered during initiation stage, al-
+though BrdU LIs were significantly inhibited, suggesting
+that BrdU LI may not be the only relevant biomarker to pre-
+
+dict the chemopreventive efficacy of N. sativa, at least in the
+case of group 3. Further investigation of the relevance of
+other permissive genetic or biochemical factors, particularly
+those related to induction of apoptosis, may be of great im-
+portance in this case.
+
+To our knowledge, only two earlier reports showed N.
+sativa to have potent cancer chemopreventive potential.
+
+Vol. 45, No. 2 199
+
+Figure 2. BrdU immunohistochemistry. A: BrdU-labeled nuclei in colon mucosa from a rat treated with DMH only (G1). B: BrdU-labeled nuclei in colon mu-
+cosa from a rat treated with DMH and posttreated with N. sativa oil. Note the decrease in numbers of BrdU-labeled nuclei seen in B compared with A.
+
+
+
+Salomi et al. (32) showed that postinitiation application of a
+dose of crude oil extracts of N. sativa seeds delayed the onset
+of dimethylbenz[a]anthracene (DMBA)-induced skin
+papilloma formation and reduced the number of papillomas
+per mouse while inhibiting methylcholanthrene induction of
+soft tissue sarcomas. El-Mofty et al. (33), using a similar
+DMBA protocol, reported that topical application of chemi-
+cally extracted or naturally extracted N. sativa oil markedly
+reduced the appearance of skin tumors in female BALB/c
+mice.
+
+The precise mechanism of tumor inhibition by N. sativa
+volatile oil is not known. However, it has been found that
+polyunsaturated fatty acids constitute 83.7% of the total fat in
+black seeds (14), with linoleic acid (cis-C18:2 ω-6) as the
+major component (60.8%) and oleic acid (cis-C18:1 ω-9)
+
+constituting 21.9% of total fats. Concerning cancer preven-
+tion, it was found that ω-3 polyunsaturated fatty acids exhibit
+inhibitory effects on various kinds of tumors in animal exper-
+iments, and epidemiological studies have shown that they
+may exert protective influence in humans (34). However,
+there is convincing evidence that dietary oils rich in ω-6
+polyunsaturated fatty acids exerted strong tumor-enhancing
+effects on mammary and colon cancer incidence in rats and
+mice (34,35). Therefore, the significant reduction in ACF
+numbers observed here might not be considered directly re-
+lated to linoleic acid content in N. sativa oil.
+
+The presence of antioxidants such as tocopherols and
+polyphenols in oil extracted from N. sativa seeds could be im-
+portant. The total tocopherol (α-, β-, and γ-tocopherols) con-
+tent in N. sativa seeds was found to be about 340 µg/g, whereas
+
+200 Nutrition and Cancer 2003
+
+Figure 3. BrdU LIs in different colonic regions. *, Significant vs. corresponding region in the DMH-only treated group at P < 0.01.
+
+Table 3. Blood Biochemistry Data for Rats Administered DMH and Treated With N. sativa
+
+Treatment No. of Samples Total Protein (g/dl) Creatinine (mg/dl) Albumin (g/dl) A/G Ratio Ca (mg/dl)
+
+G1 DMH alone 10 5.7 ± 0.2a 0.48 ± 0.05 2.36 ± 0.10 0.72 ± 0.02 10.3 ± 0.4
+G2 DMH → (post) 10 5.7 ± 0.1 0.50 ± 0.05 2.43 ± 0.08 0.74 ± 0.03 10.2 ± 0.2
+G3 DMH + (pre- + simultaneous) 10 5.7 ± 0.2 0.49 ± 0.03 2.40 ± 0.08 0.74 ± 0.02 9.2 ± 3.2
+G4 Saline→ (continuous) 10 5.8 ± 0.2 0.47 ± 0.05 2.37 ± 0.01 0.71 ± 0.04 10.2 ± 0.3
+
+a: Values are means ± SD.
+
+Table 4. Urinary Biochemistry and Electrolyte Data for Rats Administered DMH and Treated With N. sativa
+
+Treatment
+No. of
+
+Samples
+
+Urinary
+Protein
+(mg/dl)
+
+Creatinine
+(mg/dl) Na (mEq/l) K (mEq/l) Cl (mEq/l) Ca (mg/dl) P (mg/dl) pH
+
+G1 DMH alone 10 220 ± 216a 198 ± 35 122 ± 40 321 ± 54 160 ± 39 11 ± 2.7 317 ± 94 6.5 ± 0
+G2 DMH→ (post) 10 142 ± 46 206 ± 25 138 ± 32 320 ± 59 165 ± 38 11 ± 2.3 328 ± 44 6.5 ± 0
+G3 DMH + (pre- + simultaneous) 10 163 ± 92 214 ± 27 104 ± 53 312 ± 56 139 ± 42 10 ± 2.7 372 ± 74 6.4 ± 0
+G4 Saline→ 10 182 ± 5 205 ± 27 94 ± 40 329 ± 59 130 ± 39 8 ± 2.7 357 ± 67 6.5 ± 0
+
+a: Values are means ± SD.
+
+
+
+total polyphenols are present at 1,744 µg/g (14). Naturally oc-
+curring plant phenols are widely distributed and many have
+been found to protect against chemical carcinogenesis
+(36–38). Some plant phenols have been found to inhibit the ac-
+tivity of cytochrome P-450-dependent enzymes that metabo-
+lize drugs and carcinogens (39). Therefore, the possibility that
+whether polyphenols exist in N. sativa oil (14) might be in-
+volved in the present chemopreventive findings deserves fur-
+ther investigation.
+
+It is noteworthy to mention that our histological and bio-
+chemical investigations of different parameters in the present
+experiment showed no signs of unfavorable side effects with
+administration of oil of seeds of N. sativa. Although the exact
+mechanisms of the chemopreventive effects of N. sativa oil
+and its constituents need to be determined, the evidence de-
+scribed here indicates that further research on the modifying
+effects of the constituents on different types of cancer is war-
+ranted.
+
+Acknowledgments and Notes
+
+This work was supported by a grant from the Ministry of Health, Welfare
+and Labor, Japan. The authors thank Drs. Hideki Wanibuchi and Keiichirou
+Morimura of the First Department of Pathology, Osaka City University
+Medical School, Osaka, Japan, and Dr. Yehia Abdul-Galil Mahmoud of the
+Botany Department, Faculty of Science, Tanta University, Tanta, Egypt, for
+the useful discussions concerning N. sativa. Address correspondence to S.
+Fukushima, First Dept. of Pathology, Osaka City University Medical
+School, 1-4-3 Asahi-machi, Abeno-ku, Osaka 545-8585, Japan. E-mail:
+Fukuchan@med.osaka-cu.ac.jp.
+
+Submitted 21 June 2002; accepted in final form 22 January 2003.
+
+References
+
+1. Shike M, Winawer SJ, Greenwald PH, Bloch A, Hill MJ, et al.: Pri-
+mary prevention of colorectal cancer: the WHO Collaborating Centre
+for Prevention of Colorectal Cancer. Bull WHO 68, 377–385, 1990.
+
+2. Sugimura T and Sato S: Mutagens—carcinogens in foods. Cancer Res
+43(Suppl), 2415–2421, 1983.
+
+3. Wattenberg LW: Chemoprevention of cancer. Cancer Res 45, 1–8,
+1985.
+
+4. Babayan VK, Koottungal D, and Halaby GA: Proximate analysis, fatty
+acid, and amino acid composition of Nigella sativa L. seeds. J Food Sci
+43, 1314–1319, 1978.
+
+5. Mahfouz M, El-Dakhakhny M, Gemei A, and Mossa H: Choleretic ac-
+tion of Nigella sativa L. seeds oil. Egyp Pharmacol Bull 44, 225–230,
+1962.
+
+6. Hanafy M and Hatem M: Studies on the antimicrobial activity of
+Nigella sativa seed (black cumin). J Ethnopharmacol 34, 275–278,
+1991.
+
+7. Akhtar AH, Ahmad KD, Gilani SN, and Nazir A: Antiulcer effects of
+aqueous extracts of Nigella sativa and Pongamia pinnata in rats.
+Fitotrrapia LXVII, 195–199, 1996.
+
+8. El Daly ES: Protective effect of cystine and vitamin A, Crocus sativus
+and Nigella sativa extracts on cisplatin-induced toxicity in rats. J
+Pharmacol Belg 53, 87–95, 1998.
+
+9. Saxena A and Vyas K: Antimicrobial activity of seeds of some
+ethnopharmacinal plants. J Econ Taxon Bot 8, 291–299, 1986.
+
+10. Haq A, Lobo P, Al-Tufail M, Rama N, and Al-Sedairy S:
+Immunomodulatory effect of Nigella sativa proteins fractionated by
+
+ion exchange chromatography. Int J Immunopharmacol 21, 283–295,
+1999.
+
+11. Salem ML and Hossain MS: Protective effect of black seed oil from
+Nigella sativa against murine cytomegalovirus infection. Int J
+Immunopharmacol 22, 729–740, 2000.
+
+12. Salomi N, Nair S, Jayawardhanan K, Varghese D, and Panikkar K:
+Anti-tumor principles from Nigella sativa seeds. Cancer Lett 63,
+41–46, 1992.
+
+13. Al-Jasser MS: Chemical composition and microflora of black cumin
+(Nigella sativa L.) seeds growing in Saudi Arabia. Food Chem 45,
+239–242, 1992.
+
+14. Nergiz C and Otles S: Chemical composition of Nigella sativa L.
+seeds. Food Chem 48, 259–261, 1993.
+
+15. Bird RP: Observation and quantification of aberrant crypts in the
+murine colon treated with a colon carcinogen: preliminary findings.
+Cancer Lett 37, 147–151, 1987.
+
+16. Pretlow TP, O’Riordan MA, Pretlow TG, and Satellato TA: Aberrant
+crypts in human colonic mucosa: putative preneoplastic lesions. J Cell
+Biochem 16G, 55s–62s, 1992.
+
+17. Bird RP: Role of aberrant crypt foci in understanding the pathogenesis
+of colon cancer. Cancer Lett 93, 55–71, 1995.
+
+18. Tsukamoto T, Tanaka H, Fukami H, Inoue M, Takahashi M, et al.:
+More frequent β-catenin gene mutations in adenomas than in aberrant
+crypt foci or adenocarcinomas in the large intestines of
+2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP)-treated
+rats. Jpn J Cancer Res 91, 792–796, 2000.
+
+19. Kawamori T, Tanaka T, Hara A, Yamahara J, and Mori H: Modifying
+effects of naturally occurring products on the development of colonic
+aberrant crypt foci induced by azoxymethane in F344 rats. Cancer Res
+55, 1277–1282, 1995.
+
+20. Salim EI, Wanibuchi H, Taniyama T, Yano Y, Morimura K, et al.: Inhibi-
+tion of development of N,N′-dimethylhydrazine-induced rat colonic ab-
+errant crypt foci by pre, post and simultaneous treatments with
+24R,25-dihydroxyvitaminD3.JpnJCancerRes88,1052–1062,1997.
+
+21. Ames BN, Gold LS, and Willet WC: The causes and prevention of can-
+cer. Proc Natl Acad Sci USA 92, 5258–5265, 1995.
+
+22. Weisburger JH: Colon carcinogenesis: their metabolism and mode of
+action. Cancer 28, 60–70, 1971.
+
+23. Zheng Y, Kramer PK, Lubet RA, Steele VE, Keloff GJ, et al.: Effect of
+retinoids on AOM-induced colon cancer in rats: modulation of cell
+proliferation, apoptosis and aberrant crypt foci. Carcinogenesis 20,
+255–260, 1999.
+
+24. Otori K, Sugiyama K, Fukushima S, and Esumi H: Expression of the
+cyclin D1 gene in rat colorectal aberrant crypt foci and tumors induced
+by azoxymethane. Cancer Lett 140, 99–104, 1999.
+
+25. Smith AJ, Stern HS, Penner M, Hay K, Mitri A, et al.: Somatic APC
+and K-ras codon 12 mutations in aberrant crypt foci from human co-
+lons. Cancer Res 54, 5527–5530, 1994.
+
+26. Pretlow TP, O’Riordan MA, Somich GA, Amini SB, and Pretlow TG:
+Aberrant crypts correlate with tumor incidence in F344 rats treated
+with azoxymethane and phytate. Carcinogenesis 13, 1509–1512,
+1992.
+
+27. Davis MJ, Bowey EA, Adlercreutz H, Rowland IR, and Rumsby PC:
+Effects of soy or rye supplementation of high-fat diets on colon tumour
+development in azoxymethane-treated rats. Carcinogenesis 20,
+927–931, 1999.
+
+28. Taniyama T, Wanibuchi H, Salim EI, Yano Y, Otani S, et al.:
+Chemopreventive effect of 24R,25-dihydroxyvitamin D3 in N,N′-di-
+methylhydrazine-induced rat colon carcinogenesis. Carcinogenesis 21,
+173–178, 2000.
+
+29. Li W, Wanibuchi H, Salim EI, Wei M, Yamamoto S, et al.: Inhibition
+by ginseng of 1,2-dimethylhydrazine induction of aberrant crypt foci
+in the rat colon. Nutr Cancer 36, 66–73, 2000.
+
+30. Coltrera MD and Gown AM: PCNA/cyclin expression and BrdU up-
+take define different subpopulations in different cell lines. J Histochem
+Cytochem 39, 23–30, 1991.
+
+31. Wattenberg LW: Chemoprevention of cancer by naturally occurring
+and synthetic compounds. In Cancer Chemoprevention, Wattenberg L,
+
+Vol. 45, No. 2 201
+
+
+
+Lipkin M, Boone CW, and Keloff GJ (eds). Boca Raton, FL: CRC
+Press, 1992, pp 19–39.
+
+32. Salomi MJ, Nair SC, and Pannikar KR: Inhibitory effects of Nigella
+sativa and saffron (Crocus sativus) on chemical carcinogenesis in
+mice. Nutr Cancer 16, 67–72, 1991.
+
+33. El-Mofty MM, Abdel-Galil AM, Shwaireb MH, El-Dakhakhny MM,
+Rizk AM, et al.: Prevention of skin tumors induced by
+7,12-dimethylbenz(a)anthracene in mice by black seed oil. Oncol Rep
+4, 139–141, 1997.
+
+34. Bartsch H, Nair J, and Owen RW: Dietary polyunsaturated fatty acids
+and cancers of the breast and colorectum: emerging evidence for their
+role as risk modifiers. Carcinogenesis 20, 2209–2218, 1999.
+
+35. Fay MP, Freedman LS, Clifford CK, and Midthune DN: Effect of dif-
+ferent types and amounts of fat on the development of mammary tu-
+mors in rodents: a review. Cancer Res 57, 3979–3988, 1997.
+
+36. Yamane T, Hagiwara N, Tateishi M, Akachi S, Kim M, et al.: Inhibi-
+tion of azoxymethane-induced colon carcinogenesis in rats by green
+tea polyphenol fraction. Jpn J Cancer Res 82, 1336–1339, 1991.
+
+37. Lesca P: Protective effects of ellagic acid and other plant phenols on
+benz(a)pyrine neoplasia in mice. Carcinogenesis 4, 1651–1653, 1983.
+
+38. Wang YZ, Khan AW, Bickers RD, and Mukhtar H: Protection against
+polycyclic aromatic hydrocarbon-induced skin tumor initiation in
+mice by green tea polyphenols. Carcinogenesis 2, 411–415, 1989.
+
+39. Mukhtar H, Das M, and Bickers DR: Inhibition of
+3-methyl-cholanthrene-induced skin tumorigenesis in BALB/c mice
+by oral feeding of trace amounts of ellagic acid in drinking water. Can-
+cer Res 46, 2262–2265, 1986.
+
+202 Nutrition and Cancer 2003
+
+
+
+
+
+Metadata of the PDF:
+date : 2003-07-30T19:52:30Z
+pdf:PDFVersion : 1.3
+access_permission:modify_annotations : true
+access_permission:can_print_degraded : true
+dcterms:created : 2003-07-24T20:31:31Z
+Last-Modified : 2003-07-30T19:52:30Z
+dcterms:modified : 2003-07-30T19:52:30Z
+dc:format : application/pdf; version=1.3
+title : NC4502.vp
+Last-Save-Date : 2003-07-30T19:52:30Z
+access_permission:fill_in_form : true
+meta:save-date : 2003-07-30T19:52:30Z
+pdf:encrypted : false
+dc:title : NC4502.vp
+modified : 2003-07-30T19:52:30Z
+Content-Type : application/pdf
+meta:creation-date : 2003-07-24T20:31:31Z
+created : Thu Jul 24 13:31:31 MST 2003
+access_permission:extract_for_accessibility : true
+access_permission:assemble_document : true
+xmpTPg:NPages : 9
+Creation-Date : 2003-07-24T20:31:31Z
+access_permission:extract_content : true
+access_permission:can_print : true
+producer : Acrobat Distiller 5.0 (Windows)
+access_permission:can_modify : true

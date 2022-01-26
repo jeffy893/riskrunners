@@ -1,0 +1,1 @@
+java -cp "/Users/jefferson/documents/sensutec/000_SensuTools/PDFTOTEXT/PdfToText01.jar:/Users/jefferson/documents/sensutec/sensu_libraries/tika-server-1.12.jar" pdf.Main "/Users/jefferson/Documents/sensutec/20180403_Climate_Change/Climate_6.pdf" "/Users/jefferson/Documents/sensutec/20180403_Climate_Change/" "Climate_6"
