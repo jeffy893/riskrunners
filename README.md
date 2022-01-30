@@ -31,5 +31,6 @@
 <br>
 
 <h2>Minute_Pen uses an Event Notation to inspire explorers to pick up the Pen at a Minute's notice</h2>
-<h3>This was used in a project aiming to compensate those who are first on the scene</h3>
+<h4>This aims to break the modern pattern of fitting news into a finite set of event codes</h4>
 <h4>https://nlpbigdata.jeffersonrichards.com</h4>
+<h5>https://www.gdeltproject.org/</h5>
