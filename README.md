@@ -30,5 +30,5 @@
 <br>
 
 <h2>Minute_Phen / Minute_Pen uses an Event Notation to inspire explorers to pick up the Pen at a Minute's notice.</h2>
-<h3>This was used in a project aiming to compensate those that are first on the scene of an event that they report to the ether.</h3>
-<h4>(https://nlpbigdata.jeffersonrichards.com/)</h4>
+<h3>This was used in a project aiming to compensate those that are first on the scene of an event that they report to the ether</h3>
+<h4>https://nlpbigdata.jeffersonrichards.com</h4>
