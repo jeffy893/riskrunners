@@ -1,5 +1,4 @@
 # RiskRunners
-<h5>In general, edit the raw .command file to see how the .jar is utilized</h5>
 
 
 <h2>The Posterity App is the primary set of code in this folder</h2>
@@ -32,7 +31,8 @@
 <h2>WEBCRAWL creates a Wiki Report of any list of Subjects or Concepts</h2>
 <h2>PDFToText can be unzipped and used to convert a pdf to text file</h2>
 <br>
-<h1>Feel free to unpack the .jar for any tool</h1>
+<h3>Edit the raw .command file to see how the .jar is utilized</h3>
+<h4>Feel free to unpack the .jar for any tool</h4>
 <h4>https://docs.oracle.com/javase/tutorial/deployment/jar/unpack.html</h4>
 <br>
 <br>
