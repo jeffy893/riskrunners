@@ -5,7 +5,7 @@ Posterity is an Android App that simulates the Mating Dances of Bison and Cattle
 <h4>To take the path of least resistence is to dance like Cattle.</h4>
 <br>
 
-<h3>Mathethamically: an Ehrenfest Chain incrementally "hands off" bounded constants to a Guerrilla Lanchester Law</h3><br>
+<h3>A Markov Chain incrementally "hands off" bounded constants to a Guerrilla Lanchester Law</h3><br>
 <h4>The attrition factors are set in a way such that Bison are distinct from Cattle - differentiated by their Mating Dance</h4><br>
 <br>
 The Heat Slider is meant to represent the relative likelihood of a dance<br>
