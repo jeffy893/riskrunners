@@ -42,5 +42,8 @@ The graph that appears after the simulation takes place is based on artificial c
 <img src="https://user-images.githubusercontent.com/54923460/150920482-577c7cf5-7c11-4bfe-ad30-c77db4473e89.PNG"
      width="300" 
      height="700" />
+	 
+	 
+<h1>This has been removed and shifted over into a proprietary project. If you are interested, contact message.jefferson@gmail.com and include "CLOUD" in the subject</h1>
 
 
