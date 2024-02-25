@@ -1,0 +1,9 @@
+ID,RISK_QUESTION,DOMAIN,DATASET,KEYWORD,RISK_1,RISK_2,RISK_3,RISK_4
+1,<div>Did the company hit forecasts</div>,Financial,10-K / 10-Q,,,,,
+2,<div>Was there turnover in management</div>,Leadership,http://finance.yahoo.com,executive / chief / ceo / cfo / officer,,,,
+3,<div>Were there insider transactions to buy or sell stock</div>,Financial,,,,,,
+4,<div>Did they grow revenue</div>,Financial,10-K / 10-Q,revenue,,,,
+5,<div>Did they grow profit margins</div>,Financial,10-K / 10-Q,profit / margin,,,,
+6,<div>Are they firing employees while profitable</div>,Financial / Employment,10-K / 10-Q /,let go / fire / employee / laid off,,,,
+7,<div>Are they not firing employees while not profitable</div>,Financial / Employment,10-K / 10-Q /,let go / fire / employee / laid off,,,,
+8,<div>Is there business cyclical, and if so what cycle</div>,,,,,,,

@@ -1,0 +1,4 @@
+ID,SUBJECT_1,SUBJECT_2,RELATION_1,OBJECT_1,OBJECT_2,EVENT_TIMESTAMP,CONTEXT_ID,RISK_1,RISK_TREATMENT_ID,RISK_2,RISK_3,RISK_4,SUBJECT_3,OBJECT_3,RELATION_2,RELATION_3,TIMESTAMP_1,TIMESTAMP_2,TIMESTAMP_3
+1,US Court,Trump travel ban,setback,,,3/10/2017,17,0,0,0,0,0,,,,,,,
+2,Modi,India election,eyes victory,,,3/10/2017,15,0,0,0,0,0,,,,,,,
+3,Trump,Palestinian leader Abbas,invites to white house,,,3/10/2017,3,0,0,0,0,0,,,,,,,

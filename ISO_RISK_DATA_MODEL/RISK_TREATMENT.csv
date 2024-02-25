@@ -1,0 +1,9 @@
+ID,RISK_TREATMENT_CAT
+1,modify risk
+2,dicontinue activity
+3,continue/increase activity
+4,remove risk source
+5,change likelihood
+6,change consequence
+7,share risk
+8,retain risk
