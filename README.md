@@ -2,6 +2,12 @@
 Compilation of Actuarial code and Related documents
 
 ### 2025-05-04
+
+# Lean Dream
+
+[Lean Dream](./lean-dream/) is the corpus of Prolog scripts and queries from the [extracted risks](../riskrunners.com/) for public company annual reports.
+
+
 # Risk Runners Website
 
 The search bar on [RiskRunners.com](https://riskrunners.com) may not be working on a phone or computer browser. An alternative approach is to host a local python http server with the following command within the [./riskrunners.com](./riskrunners.com/) directory:

@@ -8,3 +8,7 @@ For Python 3: ```python -m http.server```
 For Python 2: ```python -m SimpleHTTPServer```
 
 Then open your browser to http://localhost:8000 (or the address given by the script).
+
+## Processing Risk Factors with Prolog
+
+Check the [Lean Dream](../lean-dream/) corpus of Prolog scripts and queries.
