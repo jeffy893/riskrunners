@@ -1,3 +1,17 @@
+# Log of Lean-Dream in Descending Order
+
+### 2025-05-12
+
+## [Persisting the Predicates of Risk Factors](./persist/)
+
+Read More in link above ^^^^
+
+![visual](./persist/microchip_full_risk_network.png)
+
+![visual](./persist/mechanistic-table.png)
+
+
+
 ### 2025-05-09
 
 # The Long Con
