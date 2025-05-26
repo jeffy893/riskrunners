@@ -1,6 +1,8 @@
 ### 2025-05-25
 # Shrodinger's Fish
 
+[First Conception of Shrodinger's Fish](https://github.com/jeffy893/posterity/blob/d5b5c46c5a8040a3cb059995a45b5284d87c8124/2024-04-21_Juice_Worth_the_Squeeze.md) <<<<
+
 ![Visual](shrodingers-fish.png)
 
 
