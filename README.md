@@ -1,6 +1,15 @@
 # [RiskRunners](https://riskrunners.com)
 Compilation of Actuarial code and Related documents
 
+### 2025-09-11
+
+# Antifragile Spotlight
+
+[Shrodinger's Fish](./shrodingers-fish/) is a project that simulates distributing attention between athletes and "mathletes"
+
+![Antifragile Spotlight](./shrodingers-fish/antifragile-spotlight.png)
+
+
 ### 2025-05-04
 
 # Lean Dream
