@@ -1,0 +1,10 @@
+item_code,item_name,item_group,stock_uom,is_stock_item,valuation_rate
+TH-20HC-1B1BA,"Tiny Home - Model 20HC-1B1BA",Finished Goods,Nos,1,25000
+CONT-20HC,"20ft High Cube Shipping Container",Raw Materials,Nos,1,3500
+DOOR-SLD-8x7,"Sliding Glass Door Assembly 8'x7'",Components,Nos,1,1200
+WIN-FIX-3x3,"Fixed Window 3'x3'",Components,Nos,1,250
+FRAME-STL-STUD,"20-gauge Steel Stud 8ft",Raw Materials,Nos,1,15
+INSUL-SPRAY-KIT,"Closed-Cell Spray Foam Insulation Kit",Raw Materials,Nos,1,750
+ELEC-WIRE-12G,"12/2 Electrical Wire 250ft roll",Raw Materials,Nos,1,120
+PLUMB-PEX-A,"1/2in PEX-A Tubing 100ft roll",Raw Materials,Nos,1,55
+FIXT-SINK-KITCH,"Kitchenette Sink 24in",Fixtures,Nos,1,180
