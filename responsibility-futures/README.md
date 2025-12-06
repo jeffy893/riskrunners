@@ -1,4 +1,4 @@
-# Responsibility Futures Risk Engine (Account Ninja)
+# Responsibility Futures Risk Engine ([Account Ninja](https://github.com/jeffy893/gurila.tools/tree/main/account.ninja))
 
 This repository contains the core logic for the **Account Ninja** simulation engine. [cite_start]It is a Python implementation of the "Responsibility Futures" algorithm derived from the manuscript *Stockholm Forgiveness of Responsibility: A Futures Market*[cite: 1, 2].
 
