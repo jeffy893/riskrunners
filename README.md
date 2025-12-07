@@ -110,7 +110,7 @@ Then open your browser to http://localhost:8000 (or the address given by the scr
 
 
 
-# The 9 Commandments of AI
+# The 9 Constraints of AI
 
 
 
