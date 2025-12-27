@@ -1,0 +1,55 @@
+Task_ID,Task_Name,Prompt_ID,Prompt_Text,Expected_Output,AI_Model
+2,Design Agent Architecture,P2-1,"Design agent class structure for Schrodinger's Fish simulation with attributes for wealthcare, healthcare, and posterity goals","Python class definitions with inheritance hierarchy",Claude-3.5
+2,Design Agent Architecture,P2-2,"Create agent state machine for decision-making process including perception, goal prioritization, and action selection","State machine diagram and implementation",GPT-4
+2,Design Agent Architecture,P2-3,"Design agent memory system for tracking interactions, relationships, and learned behaviors","Memory management class with persistence",Claude-3.5
+3,Implement Playbook System,P3-1,"Create playbook action framework where agents can execute known operations that provide value to others","Action class hierarchy with execution methods",GPT-4
+3,Implement Playbook System,P3-2,"Implement value exchange calculation system for measuring reciprocity between agents","Value tracking and calculation algorithms",Claude-3.5
+3,Implement Playbook System,P3-3,"Design playbook evolution mechanism where agents learn and adapt their strategies","Learning algorithm with strategy updates",GPT-4
+3,Implement Playbook System,P3-4,"Create collaborative project system where multiple agents work together on shared goals","Multi-agent coordination framework",Claude-3.5
+4,Build KPI Tracking Engine,P4-1,"Implement wealthcare KPIs including resource stockpile, knowledge capital, and social capital metrics","KPI calculation and tracking system",GPT-4
+4,Build KPI Tracking Engine,P4-2,"Create healthcare KPIs for energy level, stress level, resilience, and access to support","Health metric monitoring system",Claude-3.5
+4,Build KPI Tracking Engine,P4-3,"Design KPI visualization dashboard for real-time monitoring of agent states","Dashboard with charts and gauges",GPT-4
+5,Create Bylaws Rules Engine,P5-1,"Implement rules engine for processing KPIs and triggering consequences based on thresholds","Rules engine with condition evaluation",Claude-3.5
+5,Create Bylaws Rules Engine,P5-2,"Create risk detection system that flags potential pathologies from sensor-derived metrics","Risk assessment and alerting system",GPT-4
+5,Create Bylaws Rules Engine,P5-3,"Design bylaw adaptation mechanism where rules evolve based on system performance","Adaptive rules with feedback loops",Claude-3.5
+7,Implement Value Exchange System,P7-1,"Create value calculation algorithm for measuring contributions between agents in different domains","Multi-dimensional value scoring system",GPT-4
+7,Implement Value Exchange System,P7-2,"Implement reciprocity tracking system with moving averages and trust metrics","Reciprocity calculation with history",Claude-3.5
+7,Implement Value Exchange System,P7-3,"Design value exchange marketplace where agents can negotiate and trade resources","Trading system with negotiation logic",GPT-4
+8,Build Social Pruning Logic,P8-1,"Implement social network pruning algorithm based on value exchange ratios and risk assessments","Network pruning with relationship scoring",Claude-3.5
+8,Build Social Pruning Logic,P8-2,"Create relationship evaluation system that considers posterity goals and mutual benefit","Relationship assessment framework",GPT-4
+8,Build Social Pruning Logic,P8-3,"Design connection strengthening mechanism for mutually beneficial relationships","Relationship reinforcement algorithms",Claude-3.5
+9,Create Reputation Tracking,P9-1,"Implement reputation system based on past interactions, reliability, and positive contributions","Reputation scoring and tracking system",GPT-4
+9,Create Reputation Tracking,P9-2,"Create social capital calculation that influences other agents' willingness to interact","Social capital metrics and influence",Claude-3.5
+9,Create Reputation Tracking,P9-3,"Design reputation decay and recovery mechanisms for dynamic social dynamics","Reputation evolution algorithms",GPT-4
+10,Implement Antifragility Mechanics,P10-1,"Create stressor introduction system with controlled challenges and random events","Stressor generation and application system",Claude-3.5
+10,Implement Antifragility Mechanics,P10-2,"Implement post-stress growth mechanism where agents become stronger after overcoming challenges","Growth calculation after stress events",GPT-4
+10,Implement Antifragility Mechanics,P10-3,"Design adaptation system where agents learn from failures and improve strategies","Failure-based learning algorithms",Claude-3.5
+12,Design Resource Management System,P12-1,"Create resource allocation system with different types of capital and infrastructure","Resource management with multiple types",GPT-4
+12,Design Resource Management System,P12-2,"Implement resource scarcity simulation with supply and demand dynamics","Scarcity modeling with market forces",Claude-3.5
+12,Design Resource Management System,P12-3,"Design resource sharing mechanisms for collaborative projects and mutual aid","Sharing protocols and agreements",GPT-4
+13,Implement Stress & Energy Tracking,P13-1,"Create energy depletion and restoration system based on agent activities and rest","Energy management with activity costs",Claude-3.5
+13,Implement Stress & Energy Tracking,P13-2,"Implement stress accumulation from negative interactions and resource scarcity","Stress calculation and accumulation",GPT-4
+13,Implement Stress & Energy Tracking,P13-3,"Design resilience building mechanism through successful challenge completion","Resilience growth through experience",Claude-3.5
+14,Build Knowledge Capital System,P14-1,"Create knowledge acquisition and transfer system between agents","Knowledge sharing and learning system",GPT-4
+14,Build Knowledge Capital System,P14-2,"Implement skill development progression with teaching and learning mechanics","Skill progression and education system",Claude-3.5
+14,Build Knowledge Capital System,P14-3,"Design knowledge preservation system for posterity and inheritance","Knowledge inheritance mechanisms",GPT-4
+16,Create NetLogo Implementation,P16-1,"Convert Python agent system to NetLogo with breeds, patches, and procedures","NetLogo code with agent behaviors",Claude-3.5
+16,Create NetLogo Implementation,P16-2,"Implement NetLogo visualization with agent states, relationships, and environment","NetLogo interface with visual elements",GPT-4
+16,Create NetLogo Implementation,P16-3,"Create NetLogo experiment framework for parameter sweeps and batch runs","Experiment setup with parameter ranges",Claude-3.5
+17,Build Visualization Dashboard,P17-1,"Create real-time dashboard showing agent states, network connections, and KPI trends","Interactive dashboard with live updates",GPT-4
+17,Build Visualization Dashboard,P17-2,"Implement network visualization showing social connections and relationship strengths","Network graph with dynamic updates",Claude-3.5
+17,Build Visualization Dashboard,P17-3,"Design KPI trend charts showing wealthcare and healthcare metrics over time","Time series charts with multiple metrics",GPT-4
+18,Implement Data Export Tools,P18-1,"Create data export system for simulation results in CSV, JSON, and database formats","Data export utilities with multiple formats",Claude-3.5
+18,Implement Data Export Tools,P18-2,"Implement statistical analysis tools for simulation output with summary reports","Statistical analysis and reporting tools",GPT-4
+20,Run Baseline Simulations,P20-1,"Create baseline simulation scenarios with different agent populations and parameters","Simulation configuration and execution",Claude-3.5
+20,Run Baseline Simulations,P20-2,"Implement simulation result analysis with statistical significance testing","Result analysis with statistical tests",GPT-4
+20,Run Baseline Simulations,P20-3,"Design simulation comparison framework for evaluating different configurations","Comparison tools and metrics",Claude-3.5
+21,Validate Against Sugarscape,P21-1,"Create Sugarscape reference implementation for comparison with Schrodinger's Fish","Sugarscape model in same framework",GPT-4
+21,Validate Against Sugarscape,P21-2,"Implement validation metrics comparing emergent behaviors between models","Validation framework with behavior metrics",Claude-3.5
+21,Validate Against Sugarscape,P21-3,"Design cross-model validation tests ensuring consistent agent behaviors","Cross-validation test suite",GPT-4
+22,Calibrate Antifragility Parameters,P22-1,"Create parameter optimization system for antifragility mechanics using genetic algorithms","Parameter optimization with GA",Claude-3.5
+22,Calibrate Antifragility Parameters,P22-2,"Implement sensitivity analysis for antifragility parameters and their effects","Sensitivity analysis tools",GPT-4
+22,Calibrate Antifragility Parameters,P22-3,"Design parameter validation framework ensuring realistic antifragile behaviors","Parameter validation and testing",Claude-3.5
+23,Generate Research Documentation,P23-1,"Create comprehensive research paper documenting simulation methodology and findings","Academic paper with methodology section",GPT-4
+23,Generate Research Documentation,P23-2,"Implement automated documentation generation from simulation code and results","Documentation generation tools",Claude-3.5
+23,Generate Research Documentation,P23-3,"Design user manual and API documentation for simulation platform","User guides and API documentation",GPT-4

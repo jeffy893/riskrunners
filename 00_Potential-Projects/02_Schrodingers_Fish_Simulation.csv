@@ -1,0 +1,25 @@
+Task Name,Duration,Start Date,Finish Date,Predecessors,Resource Names,Work,Cost,Priority
+Schrodingers Fish Simulation Platform,75 days,2025-02-03,2025-05-30,,Simulation Team,600 hours,$60000,950
+  Phase 1: Agent-Based Modeling Framework,25 days,2025-02-03,2025-03-07,,Core Development Team,200 hours,$20000,1000
+    Design Agent Architecture,5 days,2025-02-03,2025-02-07,,System Architect,40 hours,$4000,1000
+    Implement Playbook System,8 days,2025-02-10,2025-02-21,2,Game Developer,64 hours,$6400,1000
+    Build KPI Tracking Engine,7 days,2025-02-24,2025-03-04,3,Data Engineer,56 hours,$5600,1000
+    Create Bylaws Rules Engine,5 days,2025-03-05,2025-03-11,4,Rules Engineer,40 hours,$4000,1000
+  Phase 2: Social Network Dynamics,20 days,2025-03-10,2025-04-04,5,Social Systems Team,160 hours,$16000,950
+    Implement Value Exchange System,7 days,2025-03-10,2025-03-18,,Algorithm Developer,56 hours,$5600,900
+    Build Social Pruning Logic,5 days,2025-03-19,2025-03-25,7,Behavioral Modeler,40 hours,$4000,900
+    Create Reputation Tracking,5 days,2025-03-26,2025-04-01,8,Social Engineer,40 hours,$4000,900
+    Implement Antifragility Mechanics,3 days,2025-04-02,2025-04-04,9,Complexity Scientist,24 hours,$2400,900
+  Phase 3: Wealthcare & Healthcare Metrics,15 days,2025-04-07,2025-04-25,10,Metrics Team,120 hours,$12000,850
+    Design Resource Management System,5 days,2025-04-07,2025-04-11,,Systems Designer,40 hours,$4000,800
+    Implement Stress & Energy Tracking,5 days,2025-04-14,2025-04-18,12,Health Modeler,40 hours,$4000,800
+    Build Knowledge Capital System,5 days,2025-04-21,2025-04-25,13,Knowledge Engineer,40 hours,$4000,800
+  Phase 4: Simulation Environment,10 days,2025-04-28,2025-05-09,14,Environment Team,80 hours,$8000,800
+    Create NetLogo Implementation,5 days,2025-04-28,2025-05-02,,NetLogo Developer,40 hours,$4000,750
+    Build Visualization Dashboard,3 days,2025-05-05,2025-05-07,16,Visualization Engineer,24 hours,$2400,750
+    Implement Data Export Tools,2 days,2025-05-08,2025-05-09,17,Data Engineer,16 hours,$1600,750
+  Phase 5: Validation & Calibration,15 days,2025-05-12,2025-05-30,18,Research Team,120 hours,$12000,700
+    Run Baseline Simulations,5 days,2025-05-12,2025-05-16,,Simulation Analyst,40 hours,$4000,650
+    Validate Against Sugarscape,5 days,2025-05-19,2025-05-23,20,Validation Engineer,40 hours,$4000,650
+    Calibrate Antifragility Parameters,3 days,2025-05-26,2025-05-28,21,Research Scientist,24 hours,$2400,650
+    Generate Research Documentation,2 days,2025-05-29,2025-05-30,22,Technical Writer,16 hours,$1600,650

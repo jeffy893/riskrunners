@@ -1,0 +1,43 @@
+Task_ID,Task_Name,Prompt_ID,Prompt_Text,Expected_Output,AI_Model
+1,Setup AWS Infrastructure,P1-1,"Create Terraform configuration for AWS infrastructure including VPC, subnets, security groups, and IAM roles for RiskRunners platform","Complete Terraform files with networking and security setup",Claude-3.5
+1,Setup AWS Infrastructure,P1-2,"Generate CloudFormation template for DynamoDB tables, Lambda functions, and EventBridge rules","CloudFormation YAML with all required resources",GPT-4
+2,Deploy Cortext.io Integration,P2-1,"Design API integration architecture between Cortext.io and RiskRunners platform with authentication flow","API specification and authentication design document",Claude-3.5
+2,Deploy Cortext.io Integration,P2-2,"Create Python SDK wrapper for Cortext.io API calls with error handling and retry logic","Python module with complete API wrapper",GPT-4
+2,Deploy Cortext.io Integration,P2-3,"Implement webhook endpoints to receive processed risk factor data from Cortext.io","Flask/FastAPI webhook handlers with validation",Claude-3.5
+3,Configure Elastic Search Backend,P3-1,"Design Elasticsearch index schema for storing risk factors with full-text search capabilities","JSON schema definition with mappings",GPT-4
+3,Configure Elastic Search Backend,P3-2,"Create Python client for Elasticsearch operations including indexing and complex queries","Python class with CRUD operations",Claude-3.5
+4,Implement ISO Risk Data Model,P4-1,"Generate SQLAlchemy models based on ISO 31000 risk management standard","Python ORM models with relationships",GPT-4
+4,Implement ISO Risk Data Model,P4-2,"Create data validation schemas for risk assessment inputs using Pydantic","Pydantic models with validation rules",Claude-3.5
+4,Implement ISO Risk Data Model,P4-3,"Design database migration scripts for ISO risk data tables","Alembic migration files",GPT-4
+5,Setup DynamoDB Risk Repository,P5-1,"Create DynamoDB table design for storing risk factors with GSI for efficient querying","Table schema with partition/sort keys and GSI",Claude-3.5
+5,Setup DynamoDB Risk Repository,P5-2,"Implement boto3 client wrapper for DynamoDB operations with batch processing","Python class with batch read/write methods",GPT-4
+6,Extract Risk Factors from 10-K Reports,P6-1,"Create NLP pipeline using spaCy to extract risk factors from SEC 10-K filings","Python script with named entity recognition",Claude-3.5
+6,Extract Risk Factors from 10-K Reports,P6-2,"Design regex patterns to identify risk factor sections in 10-K documents","Comprehensive regex patterns with test cases",GPT-4
+6,Extract Risk Factors from 10-K Reports,P6-3,"Implement text preprocessing pipeline for cleaning and normalizing 10-K content","Text processing functions with noise removal",Claude-3.5
+7,Build Prolog Script Generator,P7-1,"Create template engine to convert risk factors into Prolog predicates and rules","Jinja2 templates for Prolog generation",GPT-4
+7,Build Prolog Script Generator,P7-2,"Implement natural language to Prolog converter using LLM API calls","Python function with prompt engineering",Claude-3.5
+7,Build Prolog Script Generator,P7-3,"Design validation system for generated Prolog syntax and logical consistency","Prolog syntax checker and validator",GPT-4
+8,Implement Query Engine,P8-1,"Create REST API endpoints for executing Prolog queries against risk factor database","FastAPI endpoints with query validation",Claude-3.5
+8,Implement Query Engine,P8-2,"Implement SWI-Prolog Python interface for executing queries and returning results","Python wrapper for Prolog execution",GPT-4
+9,Create Risk Predicate Database,P9-1,"Design database schema for storing Prolog predicates with versioning and metadata","SQL schema with audit trails",Claude-3.5
+9,Create Risk Predicate Database,P9-2,"Implement CRUD operations for managing Prolog predicates with search functionality","Python service layer with search",GPT-4
+10,Deploy Bedrock Claude Integration,P10-1,"Create AWS Bedrock client for Claude API with prompt templates for procurement","Python client with structured prompts",Claude-3.5
+10,Deploy Bedrock Claude Integration,P10-2,"Design prompt engineering templates for generating procurement recommendation emails","Prompt templates with variables",GPT-4
+11,Setup Inventory Monitoring System,P11-1,"Create EventBridge scheduler for daily inventory checks with Lambda triggers","CloudFormation for EventBridge rules",Claude-3.5
+11,Setup Inventory Monitoring System,P11-2,"Implement inventory scanning logic to identify low-stock items from DynamoDB","Python Lambda function with filtering",GPT-4
+12,Implement Substitute Detection Logic,P12-1,"Create algorithm to match technical specifications between different suppliers","Python matching algorithm with scoring",Claude-3.5
+12,Implement Substitute Detection Logic,P12-2,"Design fuzzy matching system for finding similar products across suppliers","Fuzzy string matching implementation",GPT-4
+13,Configure EventBridge Automation,P13-1,"Setup EventBridge rules for automated procurement workflow triggers","EventBridge configuration with targets",Claude-3.5
+13,Configure EventBridge Automation,P13-2,"Create Lambda function orchestration for procurement decision workflow","Step Functions state machine definition",GPT-4
+14,Redesign Search Interface,P14-1,"Create React components for advanced risk factor search with filters","React JSX components with hooks",Claude-3.5
+14,Redesign Search Interface,P14-2,"Design responsive UI layout for risk factor search results with pagination","CSS/Tailwind styling with grid layout",GPT-4
+15,Implement Real-time Risk Alerts,P15-1,"Create WebSocket connection for real-time risk factor notifications","WebSocket server and client code",Claude-3.5
+15,Implement Real-time Risk Alerts,P15-2,"Design alert threshold system for triggering risk notifications","Alert configuration and trigger logic",GPT-4
+16,Add Interactive Risk Visualization,P16-1,"Create D3.js visualizations for risk factor relationships and trends","D3.js charts with interactive features",Claude-3.5
+16,Add Interactive Risk Visualization,P16-2,"Implement dashboard widgets for displaying risk metrics and KPIs","React dashboard components",GPT-4
+17,Integration Testing,P17-1,"Create comprehensive test suite for API endpoints and data flow validation","Pytest test cases with fixtures",Claude-3.5
+17,Integration Testing,P17-2,"Design end-to-end test scenarios covering complete user workflows","Selenium test automation scripts",GPT-4
+18,Performance Testing,P18-1,"Create load testing scripts for API endpoints under high concurrent usage","Locust performance testing scripts",Claude-3.5
+18,Performance Testing,P18-2,"Design database performance optimization queries and indexing strategies","SQL optimization and index recommendations",GPT-4
+19,Production Deployment,P19-1,"Create CI/CD pipeline configuration for automated deployment to AWS","GitHub Actions workflow with AWS deployment",Claude-3.5
+19,Production Deployment,P19-2,"Design monitoring and alerting setup using CloudWatch and SNS","CloudWatch alarms and SNS notifications",GPT-4
