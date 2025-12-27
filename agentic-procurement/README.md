@@ -88,6 +88,15 @@ Orchestrates the complete workflow:
 - Searches for suitable substitutes
 - Generates and stores justification emails
 
+### 5. Resilience Testing Suite
+Comprehensive audit and testing framework:
+- **Resilience Auditor** (`resilience_auditor.py`): Tests decision accuracy and substitute availability
+- **Compliance Validator** (`compliance_validator.py`): Validates regulatory and business rule adherence
+- **Stress Tester** (`stress_tester.py`): Simulates failure scenarios and edge cases
+- **Master Auditor** (`master_auditor.py`): Orchestrates all audits and generates comprehensive reports
+- **Visual Report Generator** (`visual_report_generator.py`): Creates interactive dashboards and charts
+- **HTML Report Generator** (`html_report_generator.py`): Generates web-friendly audit reports
+
 ## Example Output
 
 The system generated this procurement recommendation:
@@ -113,7 +122,7 @@ Procurement Team
 
 ### Prerequisites
 ```bash
-pip install faker boto3 diagrams
+pip install faker boto3 diagrams matplotlib seaborn
 brew install graphviz  # macOS only
 ```
 
@@ -130,7 +139,46 @@ python3 simulation.py
 
 # Generate architecture diagram
 python3 arch_diagram.py
+
+# Run comprehensive resilience audit
+python3 master_auditor.py
+
+# Generate visual reports
+python3 visual_report_generator.py
+python3 html_report_generator.py
 ```
+
+## Resilience Testing & Compliance
+
+The system includes comprehensive audit capabilities to ensure production readiness:
+
+### Audit Components
+- **Resilience Testing**: Validates decision accuracy, substitute availability, and system reliability
+- **Compliance Validation**: Ensures regulatory adherence and business rule compliance
+- **Stress Testing**: Simulates failure scenarios, data corruption, and extreme conditions
+- **Visual Reporting**: Generates executive dashboards and interactive reports
+
+### Sample Audit Results
+```
+Overall Health Score: 69/100
+Risk Level: HIGH
+Recommendation: Immediate attention required
+
+Component Scores:
+  Resilience: 50/100
+  Compliance: 100/100
+  Stress Resistance: 57/100
+
+Key Findings:
+  - 0% substitute coverage for low-stock items
+  - 100% specification matching accuracy
+  - 2 stress test failures requiring attention
+```
+
+### Generated Reports
+- `master_audit_report.json`: Comprehensive audit data
+- `audit_dashboard.png`: Visual dashboard with charts and gauges
+- `audit_report.html`: Interactive web-based report
 
 ## AWS Deployment
 
@@ -263,6 +311,9 @@ def lambda_handler(event, context):
 - **Efficiency**: Reduces manual procurement research time
 - **Scalability**: Handles large inventories with minimal overhead
 - **Audit Trail**: Maintains records of all recommendations and decisions
+- **Resilience Testing**: Comprehensive audit framework ensures production readiness
+- **Visual Reporting**: Executive dashboards provide actionable insights
+- **Predictive Compliance**: Identifies issues before they become violations
 
 ## Security Considerations
 
