@@ -28,6 +28,48 @@ Creates realistic inventory data with:
 - Technical specifications (density, tensile strength, grade)
 - 3 pairs of interchangeable parts from different suppliers
 
+**Sample Raw Materials Data:**
+```json
+[
+  {
+    "SKU": "SKU-5895-agS",
+    "SupplierName": "Baird Ltd",
+    "Price": 422.22,
+    "LeadTime": 6,
+    "DaysOnHand": 12,
+    "TechnicalSpecs": {
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
+    }
+  },
+  {
+    "SKU": "SKU-1066-ZeP",
+    "SupplierName": "Rangel-Rodriguez",
+    "Price": 116.85,
+    "LeadTime": 20,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
+    }
+  },
+  {
+    "SKU": "SKU-6898-DmY",
+    "SupplierName": "Gibson-Middleton",
+    "Price": 224.24,
+    "LeadTime": 32,
+    "DaysOnHand": 1,
+    "TechnicalSpecs": {
+      "density": 7.02,
+      "tensile_strength": 476,
+      "grade": "Ps58"
+    }
+  }
+]
+```
+
 ### 2. Purchase Evaluation Logic (`evaluate_purchase.py`)
 Implements approval workflow:
 - **REJECTED**: Technical specs don't match
