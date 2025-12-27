@@ -180,6 +180,8 @@ Key Findings:
 - `audit_dashboard.png`: Visual dashboard with charts and gauges
 - `audit_report.html`: Interactive web-based report
 
+![Audit Dashboard](audit_dashboard.png)
+
 ## AWS Deployment
 
 ### Infrastructure Requirements
