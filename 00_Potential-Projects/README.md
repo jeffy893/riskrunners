@@ -169,3 +169,5 @@ We're building the **next generation of actuarial tools** that combine:
 **Ready to shape the future of actuarial science?**
 
 *The best collaborations start with shared vision and complementary expertise. Let's discuss how we can build something meaningful together.*
+
+Find me at [wiki.richards.systems](https://wiki.richards.systems)
