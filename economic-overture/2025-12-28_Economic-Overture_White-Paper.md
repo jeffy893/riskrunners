@@ -93,10 +93,10 @@ The study concludes that logical negotiation cannot break the Prospect Theory de
 
 ### The "High-Velocity" Principle
 
-Drawing on data from high-performance physical domains (e.g., athletics/golf), we identify the state of flow described as *"Come in hot, leave early"*
+We identify the state of flow required to contribute to positive morale in The Local Hub, described as *"Come in hot, leave early"*
 
-* **Analysis:** Hesitation breeds calculation. If a suitor hesitates, the Target Female has time to calculate her "Loss of Captive Audience."
-* **The Fix:** The Overture must be executed with such velocity and decisiveness that it bypasses the Target's risk-assessment cortex.
+* **Analysis:** Hesitation breeds calculation. If a suitor hesitates, the Prospect of Desire has time to calculate her "Loss of Captive Audience."
+* **The Fix:** The Overture must be executed with such velocity and decisiveness that it bypasses the Propsect's risk-assessment cortex.
 
 ### The Dignity-Kinetic Synthesis
 
