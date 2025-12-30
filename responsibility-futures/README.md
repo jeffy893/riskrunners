@@ -1,4 +1,4 @@
-# Responsibility Futures Engine - Cortext.io Integration
+# Responsibility Futures Engine - [Cortext.io](https://cortext.io) Integration
 
 > **"Quantifying responsibility through AI-extracted event analysis"** - Converting Cortext.io Event Code data into actionable Responsibility Ratios.
 
