@@ -1,0 +1,37 @@
+ID,INTERNAL / EXTERNAL,CONTEXT_CONTENT
+1,EXTERNAL,cultural regional or local
+2,EXTERNAL,social
+3,EXTERNAL,political
+4,EXTERNAL,legal
+5,EXTERNAL,regulatory
+6,EXTERNAL,financial
+7,EXTERNAL,technological
+8,EXTERNAL,economic
+9,EXTERNAL,natural and competitive environment
+10,EXTERNAL,international
+11,EXTERNAL,national
+12,EXTERNAL,key drivers and trends having impact on the objectives of the organization
+13,EXTERNAL,relationships with, and perceptions and values of external stakeholder
+14,INTERNAL,governance
+15,INTERNAL,organizational structure
+16,INTERNAL,roles and accountabilities
+17,INTERNAL,policies
+18,INTERNAL,objectives
+19,INTERNAL,strategies
+20,INTERNAL,capital
+21,INTERNAL,time
+22,INTERNAL,people
+23,INTERNAL,processes
+24,INTERNAL,systems
+25,INTERNAL,technologies
+26,INTERNAL,information systems
+27,INTERNAL,information flows
+28,INTERNAL,decision-making processes
+29,INTERNAL,relationships with stakeholders
+30,INTERNAL,perceptions of internal stakeholders
+31,INTERNAL,values of internal stakeholders
+32,INTERNAL,culture
+33,INTERNAL,standards adopted by the organization
+34,INTERNAL,guidelines adopted by the organization
+35,INTERNAL,models adopted by the organization
+36,INTERNAL,form and extent of contractual relationships

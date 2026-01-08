@@ -1,0 +1,10 @@
+ID,CONTEXT_SUMMARY_ID,SCOPE_CAT
+1,0,activity
+2,0,process
+3,0,function
+4,0,project
+5,0,product
+6,0,service
+7,0,asset
+8,0,time
+9,0,location

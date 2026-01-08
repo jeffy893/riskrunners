@@ -1,0 +1,48 @@
+ID,GOVERNANCE_FUNCTION_TITLE,KEYWORD,DOMAIN,DESCRIPTION,RISK_SUMMARY_ID
+1,Business Relationship Deterioration,customer / client,Shareholders / Investors / Partners / Suppliers / Rating Agencies,loss of customers, loss of credibility of authority,1
+2,Media Resonance,media / social / twitter / facebook,Newspapers / TV / Social Networks / Media,Massive amounts of people knowing about internal events and relationships,1
+3,Sensitive Media Topics,marginalize / minority,Transparency / Usury / Media,vulnerable members of society, regulatory areas,1
+4,Political Debate,politics / politician / political,Wealth / Honor / Media,social repercussions, attention of national politicians,1
+5,Adverse Exchange Rate,exchange / rate / foreign,International Economics,adverse movement in the exchange rate of the denomination currency in relation to the base currency before the date when the transaction is completed,2
+6,Settlement Deterioration,settlement,Settlement,Fail to come to terms of settlement,3
+7,Technology Systems Breach,hack / hacker,Technology / Internet / Security,Alien access to technology systems,4
+8,Liquidity Impact,liquid / cash,Economics,Asset cannot be traded quickly enough without affecting market value,5
+9,Natural Disaster,tornado / hurricane / heat / chill / wind / storm,Weather,Natural Disaster,6
+10,Operational Expense,operation,Labor,Expense accrued due to operations,7
+11,Legal Impact,sue / lawsuit,Law,Legal action taken due to event,7
+12,Personal Bodily Damage,hurt / injury / personal,Law / Labor,Harm done to individual body,8
+13,Personal Psychological Damage,psychological,Law / Labor,Harm done to individual emotional, logical, or spiritual self,8
+14,Credit Deterioration,credit / lend / borrow,Economics / Credit,Negative influence on the ability to lend or borrow,9
+15,Manufacturing Setback,product / manufacturing,Manufacturing,Roadblock to Product Lifecycle Management,10
+16,Strategic Relationship Setback,relationship / strategy,Strategy / Relationships,Negative impact on long-term relationships,11
+17,Strategic Resource Setback,resource / tool / commodity,Strategy / Resources,Negative Impact on long-term resource acquisition,11
+18,Strategic Influence Setback,influence,Strategy / Hegemony,Negative impact on long-term influence,11
+19,Patent Infringement,patent / trademark / breach / stolen,Intellectual Property,Trademark or Patent Infringement,12
+20,Material Supply Negative Risk,material / resource / supply,Materials,Negative impact on supply of materials (raw),13
+21,Time Lapse,bad,Good,Something boring or tedious,14
+22,Time Acceleration,good,Bad,Something exciting or sexy,14
+23,Monopoly Creation,monopoly / competition,Capitalism / Socialism,Increase of likelihood of creating a monopoly,15
+24,Socialistic Dominance,competition,Capitalism / Socialism,Increase likelihood of lack of competition,15
+25,Increase Tax,tax / levy,Tax / Legislation / Law,(Increase likelihood of passing) Legislation that increases tax,16
+26,Decrease Tax,tax / levy,Tax / Legislation / Law,(Increase likelihood of passing) Legislation that decreases tax,16
+27,Harm Environment,environement / green / organic,Environment,Decrease likelihood of life proliferating (not cancer),17
+28,Help Environment,environement / green / organic,Environement,Increase likelihood of life proliferating (not cancer),17
+29,Decrease Asset Value,asset / wealth / own,Wealth / Ecconomics,Decrease value of assets,18
+30,Increase Asset Value,asset / wealth / own,Wealth / Ecconomics,Increase value of assets,18
+31,Increase Liability,liability / owe,Wealth / Ecconomics,Increase value of liabilities,19
+32,Decrease Liability,liability / owe,Wealth / Ecconomics,Decrease value of liabilities,19
+33,Lesser Ability to Pay Dividends,dividend,Wealth / Ecconomics,Negatively impact ability to pay dividends,20
+34,Increase Equity,equity / asset / liability,Wealth / Ecconomics,Increase Equity,21
+35,Decrease Equity,equity / asset / liability,Wealth / Ecconomics,Decrease Equity,21
+36,Poor Audit,audit,Audit / Tax,Increase likelihood of a poor audit,22
+37,Great Audit,audit,Audit / Tax,Increase likelihood of a great audit,22
+38,Decrease Fuel Price,fuel / oil / gas / petroleum,Oil (Everything),Decrease fuel price,23
+39,Increase Fuel Price,fuel / oil / gas / petroleum,Oil (Everything),Increase Fuel Price,23
+40,Pass Consumer Quality Standards,consumer / quality / standard,Consumerism,Increase Likelihood of passing quality standards,24
+41,Fail Consumer Quality Standards,consumer / quality / standard,Consumerism,Increase Likelihood of failing quality standards,24
+42,Decrease Profit,profit / net,Wealth / Ecconomics,Decrease profit,25
+43,Increase Profit,profit / net,Wealth / Ecconomics,Increase Profit,25
+44,Increase Volatility,volatile / risk,Wealth / Ecconomics,Increase fluctuation,26
+45,Decrease Volatilty,volatile / risk,Wealth / Ecconomics,Decrease fluctuation,26
+46,Undervalue,value / valuation,Wealth / Ecconomics,Increase likelihood of undervalue,27
+47,Overvalue,value / valuation,Wealth / Ecconomics,Increase likelihood of overvalue,27

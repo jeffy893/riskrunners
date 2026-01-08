@@ -1,0 +1,322 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% QuickLogic Corporation Risk Factors (Based on Item 1A)
+%
+% Predicate: affects(Cause, Effect).
+% Meaning: The 'Cause' factor can lead to or contribute to the 'Effect'.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% pASIC1 and pASIC2 End-of-Life
+affects(pasic1_pasic2_foundry_agreement_expired, pasic1_pasic2_eol_announced).
+affects(pasic1_pasic2_eol_announced, customer_lifetime_buys).
+affects(pasic1_pasic2_eol, expected_revenue_decline).
+affects(supplier_replaces_pasic_equipment, end_of_ability_to_purchase_pasic_wafers).
+affects(end_of_ability_to_purchase_pasic_wafers, pasic_revenue_to_zero).
+affects(pasic1_pasic2_eol, adverse_effect_on_operating_results).
+affects(pasic1_pasic2_eol, adverse_effect_on_liquidity).
+affects(pasic_revenue_decline_faster_than_new_product_growth, risk_to_offsetting_revenue_loss).
+affects(failure_to_offset_pasic_revenue_decline, adverse_effect_on_operating_results). % Implied
+
+%% New Product Development and Competition
+affects(highly_competitive_environment, need_for_continuous_new_product_development).
+affects(rapid_obsolescence_of_products, need_for_continuous_new_product_development).
+affects(need_for_continuous_new_product_development, significant_resource_dedication).
+affects(need_for_continuous_new_product_development, need_for_advanced_fabrication_access).
+affects(long_delay_between_rd_expenditure_and_revenue, financial_risk_in_product_development).
+affects(dependency_on_new_products_for_future_revenue, risk_if_new_products_fail).
+affects(consumer_market_pressures, shorter_product_life_cycles).
+affects(consumer_market_pressures, higher_volumes_demand).
+affects(consumer_market_pressures, greater_price_pressure).
+affects(investment_in_new_product_inventory, risk_of_inventory_obsolescence).
+affects(failure_to_design_produce_sell_new_products, revenue_harm).
+affects(failure_to_design_produce_sell_new_products, gross_margin_harm).
+affects(failure_to_design_produce_sell_new_products, inventory_write_off).
+affects(failure_to_design_produce_sell_new_products, long_lived_asset_write_off).
+affects(failure_to_design_produce_sell_new_products, adverse_effects_on_business).
+affects(market_demand_failure_for_products, revenue_harm). % And other similar consequences
+affects(customer_failure_to_launch_with_quicklogic_devices, revenue_harm). % And other similar consequences
+affects(quickmips_issues, long_lived_asset_impairment_charge). % Example
+
+%% Estimating Quarterly Revenue
+affects(short_delivery_lead_time, low_revenue_visibility).
+affects(orders_within_quarter, low_revenue_visibility).
+affects(low_revenue_visibility, revenue_levels_can_change_significantly).
+affects(limited_response_to_increased_demand, potential_unmet_demand).
+affects(demand_response_limited_by_inventory, potential_unmet_demand).
+affects(demand_response_limited_by_contract_mfg_capacity, potential_unmet_demand).
+affects(demand_response_limited_by_programming_capacity, potential_unmet_demand).
+affects(deferred_revenue_until_distributor_shipment, dependency_on_distributor_reports).
+affects(inaccurate_distributor_reports, difficulty_predicting_revenue).
+affects(unanticipated_distributor_inventory_changes, difficulty_predicting_revenue).
+affects(failure_to_accurately_estimate_demand, harmed_operating_results).
+affects(failure_to_accurately_record_revenue, harmed_operating_results).
+affects(insufficient_capacity_for_demand, harmed_operating_results).
+affects(harmed_operating_results, stock_price_fluctuation). % General link
+
+%% Relationship with Tower (Foundry)
+affects(dependency_on_tower_for_key_products, risk_from_tower_issues).
+affects(tower_operational_dependency_factors, risk_to_tower_long_term_operation). % Factors: demand, finance, grants, compliance
+affects(tower_external_risk_factors, adverse_impact_on_tower_prospects). % Factors: political, cyclical market, finance
+affects(adverse_impact_on_tower_prospects, discourages_future_investment_in_tower).
+affects(potential_additional_investment_in_tower, impact_on_quicklogic_cash_position).
+affects(tower_unable_to_obtain_financing_or_increase_output, quicklogic_investment_value_decline).
+affects(tower_unable_to_obtain_financing_or_increase_output, quicklogic_wafer_credit_value_decline).
+affects(tower_unable_to_obtain_financing_or_increase_output, need_for_substitute_supplier).
+affects(need_for_substitute_supplier, significant_development_time).
+affects(need_for_substitute_supplier, product_shipment_delays).
+affects(need_for_substitute_supplier, impairment_of_long_lived_assets).
+affects(need_for_substitute_supplier, damage_to_liquidity).
+affects(need_for_substitute_supplier, severe_harm_to_business).
+affects(deterioration_in_foundry_market, adverse_effect_on_tower_investment_value).
+affects(deterioration_in_semiconductor_market, adverse_effect_on_tower_investment_value).
+affects(tower_investment_or_wafer_credit_impairment, charges_to_statement_of_operations).
+
+%% Anticipating Product Opportunities (Emerging Technologies/Standards)
+affects(failure_to_anticipate_product_opportunities, inability_to_compete_effectively).
+affects(targeted_standard_or_tech_fails_market_acceptance, unable_to_generate_revenue_from_rd).
+affects(alternative_standards_or_tech_adopted_by_mfg, unable_to_generate_revenue_from_rd).
+affects(unable_to_bring_tech_to_market_timely, unable_to_generate_revenue_from_rd).
+affects(unable_to_generate_revenue_from_rd, business_materially_harmed).
+affects(unable_to_generate_revenue_from_rd, inventory_write_off).
+affects(unable_to_generate_revenue_from_rd, long_lived_asset_write_off).
+
+%% Customer Product Plans Cancellation/Changes
+affects(long_sales_cycle, risk_of_customer_plan_changes).
+affects(customer_cancels_or_changes_product_plans, business_materially_harmed).
+affects(customer_discontinues_products_with_quicklogic_devices, business_materially_harmed).
+affects(customer_replaces_quicklogic_products, business_materially_harmed).
+affects(customer_cancels_reduces_delays_orders_after_design_effort, business_materially_harmed).
+
+%% Solutions with Partners (Dependency on Partner Technology)
+affects(dependency_on_partner_technology_for_solutions, risk_if_partner_tech_fails_or_unavailable).
+affects(partner_solution_not_incorporated_into_customer_products, revenue_harm).
+affects(partner_solution_not_incorporated_into_customer_products, gross_margin_harm).
+affects(partners_discontinue_production_of_their_products, revenue_harm). % and gross_margin_harm
+affects(customers_do_not_incorporate_partner_solution, revenue_harm). % and gross_margin_harm
+affects(informal_partnership_reduced_or_terminated, revenue_harm). % and gross_margin_harm
+affects(failure_of_partner_solutions, long_lived_asset_write_off).
+
+%% Dependency on Third Parties (Fabrication, Assembly, Test, Program)
+affects(reliance_on_single_suppliers, risk_of_supplier_failure_or_loss).
+affects(loss_of_supplier, material_adverse_effect_on_business).
+affects(supplier_agreement_expiration, material_adverse_effect_on_business). % e.g. pASIC
+affects(supplier_inability_to_meet_targets, material_adverse_effect_on_business). % volume, performance, cost
+affects(assembly_capacity_constraint_at_supplier, potential_production_issues).
+affects(programming_capacity_dependent_on_hardware_investment, risk_of_capacity_shortfall).
+affects(supplier_merger_or_acquisition, potential_change_in_supplier_relationship).
+affects(supplier_unable_or_unwilling_to_provide_services, severely_impaired_operations).
+affects(need_to_qualify_substitute_supplier_for_manufacturing, time_consuming_difficult).
+affects(need_to_qualify_substitute_supplier_for_manufacturing, unforeseen_operational_problems).
+affects(alternate_suppliers_unavailable_or_unfavorable_terms, risk_to_production).
+affects(increased_competition_for_wafer_capacity, required_investment_to_secure_access).
+affects(migration_to_advanced_wafer_tech_needs, required_investment_to_secure_access).
+affects(increased_competition_for_backend_services, required_investment_to_secure_access).
+affects(supplier_refusal_or_inability_to_provide_services, unable_to_procure_alternatives).
+affects(customer_demand_increase_with_supplier_capacity_limit, unable_to_secure_additional_capacity).
+affects(reliance_on_limited_suppliers, reduced_control_over_delivery_quality_cost).
+affects(reduced_control_over_delivery_quality_cost, product_shortages).
+affects(reduced_control_over_delivery_quality_cost, increased_manufacturing_costs).
+affects(reduced_control_over_delivery_quality_cost, adverse_operating_results).
+affects(reduced_control_over_delivery_quality_cost, adverse_cash_flows).
+affects(inaccurate_info_from_subcontractors, misstated_inventory_levels).
+affects(inaccurate_info_from_subcontractors, incorrect_gross_profit_recording).
+affects(inaccurate_info_from_subcontractors, inability_to_meet_delivery_commitments).
+affects(inaccurate_info_from_subcontractors, commitment_to_unneeded_inventory).
+affects(inventory_ mismanagement_due_to_bad_data, business_materially_harmed).
+
+%% Liquidity and Capital Requirements
+affects(need_for_higher_revenue_and_gross_profit_for_positive_cash_flow, liquidity_risk).
+affects(failure_to_achieve_sufficient_cash_flow, need_to_borrow_or_sell_equity).
+affects(inadequate_funds_when_needed, financial_condition_materially_adversely_affected).
+affects(inadequate_funds_when_needed, operating_results_materially_adversely_affected).
+affects(inadequate_funds_when_needed, inability_to_operate_without_significant_changes).
+affects(inadequate_funds_when_needed, inability_to_operate_at_all).
+
+%% Forecasting Demand
+affects(binding_manufacturing_commitments_before_customer_orders, risk_of_forecast_inaccuracy).
+affects(risk_of_forecast_inaccuracy, product_shortages).
+affects(risk_of_forecast_inaccuracy, excess_product_inventory).
+affects(limited_ability_to_change_forecasts_with_mfg, inflexibility_to_demand_changes).
+affects(supplier_controlled_capacity_allocation, lack_of_direct_control_over_supply).
+affects(long_lead_times_for_programming_equipment, difficulty_responding_to_demand_spikes).
+affects(difficulty_obtaining_additional_supply_short_term, risk_of_unmet_demand_or_high_costs).
+affects(failure_to_adequately_forecast_demand, business_materially_harmed).
+
+%% Manufacturing Processes, Yields, Quality
+affects(complex_semiconductor_manufacturing_process, risk_of_nonfunctional_wafers).
+affects(manufacturing_fluctuations, changes_in_product_performance_distribution).
+affects(manufacturing_runs_with_low_or_no_yield, inventory_shortages_or_increased_costs).
+affects(manufacturing_yield_problems_take_time_to_correct, production_delays).
+affects(reliance_on_third_party_suppliers_for_yield_correction, extended_correction_time).
+affects(customer_redesign_requalification_after_yield_correction, sales_delays).
+affects(yield_fluctuations_with_new_products_or_processes, increased_manufacturing_costs).
+affects(yield_fluctuations_with_new_products_or_processes, inventory_shortages).
+affects(yield_fluctuations_with_new_products_or_processes, reduced_customer_demand).
+affects(complex_new_products_increase_defect_risk, potential_quality_issues).
+affects(new_manufacturing_facilities_processes_take_time_to_stabilize, initial_quality_cost_risks).
+affects(products_contain_errors_or_defects_post_production, loss_of_market_share).
+affects(products_contain_errors_or_defects_post_production, delays_in_market_acceptance).
+affects(products_contain_errors_or_defects_post_production, loss_of_market_acceptance).
+affects(products_contain_errors_or_defects_post_production, inventory_scrap_or_reserve).
+affects(products_contain_errors_or_defects_post_production, product_recall).
+affects(product_defects_discovered, risk_of_product_liability_litigation).
+affects(liability_limitations_unenforceable, increased_exposure_to_damages).
+
+%% Significant Customers and Demand Visibility
+affects(reliance_on_few_significant_customers, revenue_concentration_risk).
+affects(targeting_high_volume_consumer_apps, increased_revenue_concentration_risk).
+affects(significant_customer_demand_fluctuation, revenue_volatility).
+affects(customers_order_with_short_lead_times, low_long_term_demand_visibility).
+affects(customers_no_firm_long_term_commitment, low_long_term_demand_visibility).
+affects(manufacturing_lead_times_longer_than_customer_request, inventory_build_in_anticipation).
+affects(revenue_decline_from_significant_customer, inability_to_offset_with_other_customers).
+affects(revenue_decline_from_significant_customer, purchase_of_excess_inventory).
+affects(significant_customer_issues, severe_harm_to_business).
+affects(investment_in_long_lived_assets_for_specific_demand, risk_if_demand_unmet).
+affects(demand_or_margin_from_products_unmet_expectations, inventory_write_off).
+affects(demand_or_margin_from_products_unmet_expectations, charges_against_long_lived_assets).
+
+%% History of Losses
+affects(history_of_significant_losses, risk_of_not_remaining_profitable).
+affects(past_profitability_not_indicative_of_future, uncertainty_of_future_performance).
+
+%% Third-Party Distributors
+affects(reliance_on_third_party_distributors, risk_from_distributor_performance_or_loss).
+affects(distributor_agreements_terminable_on_short_notice, risk_of_losing_distribution_channel).
+affects(inability_to_recruit_replacement_distributors, risk_to_market_access).
+affects(distributor_merger_or_acquisition, termination_of_contract).
+affects(distributor_merger_or_acquisition, less_effort_on_quicklogic_products).
+affects(loss_of_principal_distributors, business_materially_harmed).
+affects(inability_to_attract_new_distributors, business_materially_harmed).
+affects(distributors_sell_competing_products, risk_of_prioritization_of_competitors).
+affects(quicklogic_not_principal_supplier_to_distributors, risk_of_lower_priority).
+affects(distributors_prioritize_other_products, business_materially_harmed).
+affects(inability_to_collect_receivables_from_distributors_or_oems, financial_results_materially_harmed).
+
+%% Operating Results Fluctuations
+affects(numerous_factors_cause_operating_results_fluctuation, potential_failure_to_meet_expectations). % Factors listed in text
+affects(failure_to_meet_expectations, stock_price_decline_or_fluctuation).
+affects(inability_to_anticipate_and_respond_to_fluctuation_factors, business_materially_harmed).
+
+%% Semiconductor Industry Oversupply/Undersupply
+affects(industry_wide_semiconductor_oversupply, severe_downward_pricing_pressure).
+affects(industry_wide_semiconductor_undersupply, competition_for_limited_manufacturing_resources).
+affects(industry_wide_semiconductor_undersupply, inability_to_manufacture_timely_cost_effectively_or_sufficiently).
+affects(outsourcing_and_single_source_supply, particular_vulnerability_to_supply_shortages).
+affects(future_industry_over_or_undersupply, business_materially_harmed).
+
+%% Order Cancellations/Deferrals, Distributor Returns
+affects(customer_or_distributor_order_cancellations_or_deferrals, accounts_receivable_collections_decrease).
+affects(customer_or_distributor_order_cancellations_or_deferrals, inventory_levels_increase).
+affects(distributor_product_returns, accounts_receivable_collections_decrease).
+affects(distributor_product_returns, inventory_levels_increase).
+affects(order_issues_or_returns, business_materially_harmed).
+
+%% International Business Operations
+affects(reliance_on_foreign_manufacturing, exposure_to_international_risks).
+affects(reliance_on_foreign_sales, exposure_to_international_risks).
+affects(international_operations_risk_factors, business_materially_harmed). % Factors: political instability, currency, tax, export, IP etc.
+affects(sales_denominated_in_usd_and_strong_usd, increased_product_price_in_local_currency).
+affects(costs_in_foreign_countries_difficult_to_reduce, inflexibility_in_cost_structure).
+
+%% Competition
+affects(intense_competition_in_semiconductor_industry, risk_to_market_share_and_profitability).
+affects(system_mfrs_unwilling_to_switch_from_competitors, barrier_to_customer_adoption).
+affects(failure_to_compete_successfully, business_materially_harmed).
+affects(competitors_greater_resources, competitive_disadvantage).
+affects(competitors_established_relationships_and_knowledge, competitive_disadvantage).
+affects(lost_customers_to_competitors, direct_impact_of_competition).
+affects(competition_from_cpld_fpga_suppliers, direct_competition).
+affects(competition_from_asics, alternative_solution_for_customers).
+affects(competition_from_embedded_microprocessors, alternative_solution_for_customers).
+affects(inability_to_compete_on_key_areas, business_materially_harmed). % Areas: new products, quality, price, partnerships etc.
+
+%% Attracting and Retaining Key Personnel
+affects(failure_to_attract_or_retain_key_personnel, business_materially_harmed).
+affects(difficulty_hiring_qualified_personnel, operational_inefficiency).
+affects(intense_competition_for_employees, difficulty_hiring_and_retaining).
+affects(new_hires_require_extensive_training, productivity_lag).
+
+%% Intellectual Property Protection and Litigation
+affects(failure_to_adequately_protect_ip, risk_to_competitive_advantage).
+affects(ip_infringement_allegations_or_licensing_requests, potential_litigation).
+affects(ip_litigation, expensive_and_time_consuming).
+affects(losing_ip_litigation, substantial_damages_or_royalties).
+affects(losing_ip_litigation, injunction_against_selling_products).
+affects(inability_to_obtain_ip_licenses_on_reasonable_terms, business_materially_harmed).
+affects(loss_of_existing_key_ip_licenses, business_materially_harmed).
+affects(patent_process_long_and_expensive, uncertainty_in_obtaining_protection).
+affects(issued_patents_insufficient_scope_or_strength, inadequate_protection).
+affects(others_develop_similar_or_superior_tech, competitive_threat).
+affects(others_design_around_patents, competitive_threat).
+affects(breach_of_confidentiality_agreements, loss_of_trade_secrets).
+affects(foreign_laws_inadequate_ip_protection, risk_in_international_markets).
+
+%% Manufacturing, Distribution, Technology Agreements Risks
+affects(risky_third_party_agreements, potential_negative_outcomes). % Risks: cash use, resource diversion, tech incorporation, collection, market acceptance
+affects(failure_to_recover_asset_costs_from_related_product_cash_flow, asset_impairment).
+affects(asset_impairment, financial_results_harmed).
+
+%% Catastrophic Events and Business Interruptions
+affects(operations_vulnerable_to_catastrophic_events, risk_of_interruption). % fire, earthquake, power loss etc.
+affects(headquarters_near_earthquake_fault_lines, specific_catastrophic_risk).
+affects(reliance_on_sole_suppliers_during_catastrophe, inability_to_quickly_find_alternates).
+affects(supplier_inventory_destroyed_in_disaster, loss_of_inventory).
+affects(systems_vulnerable_to_cyber_attacks, risk_of_disruption).
+affects(catastrophic_event, significantly_impaired_operations). % records, payments, design, mfg, ship
+affects(catastrophic_event_affecting_customers_distributors_suppliers, indirect_disruptive_effects).
+affects(no_detailed_disaster_recovery_plan, increased_vulnerability).
+affects(insufficient_business_interruption_insurance, uncompensated_losses).
+affects(significant_uninsured_loss, material_adverse_effect_on_business).
+
+%% Principal Stockholders' Voting Power
+affects(significant_voting_power_of_principal_stockholders, influence_over_corporate_actions).
+affects(concentration_of_ownership, potential_delay_or_prevention_of_change_in_control).
+affects(concentration_of_ownership, potential_effect_on_stock_market_price).
+affects(principal_stockholder_actions_not_in_best_interest_of_others, risk_to_minority_stockholders).
+
+%% Anti-Takeover Provisions
+affects(anti_takeover_provisions, potential_discouragement_of_beneficial_takeover).
+
+%% Stock Price Fluctuation and Securities Litigation
+affects(wide_stock_price_fluctuations_in_tech_sector, market_volatility_risk).
+affects(stock_price_volatility, potential_securities_class_action_litigation).
+affects(securities_litigation, substantial_costs).
+affects(securities_litigation, diversion_of_management_attention_and_resources).
+
+%% Accounting Pronouncements and Taxation Rules
+affects(changes_to_accounting_or_taxation_rules, adverse_revenue_fluctuations).
+affects(changes_to_accounting_or_taxation_rules, effect_on_reported_results_of_operations).
+affects(changes_to_accounting_or_taxation_rules, effect_on_how_business_is_conducted).
+affects(fasb_statement_123r_share_based_payment, significantly_lower_net_income_reported). % Example
+
+%% Corporate Governance and Public Disclosure Regulations
+affects(changing_corporate_governance_and_disclosure_laws, uncertainty_for_companies).
+affects(evolving_interpretation_of_governance_laws, continuing_uncertainty_and_higher_costs).
+affects(investment_to_comply_with_evolving_governance_laws, increased_g_and_a_expenses).
+affects(investment_to_comply_with_evolving_governance_laws, diversion_of_management_time).
+affects(compliance_efforts_differ_from_regulatory_intent, reputation_harm).
+affects(compliance_efforts_differ_from_regulatory_intent, stock_price_affected).
+
+%% Internal Controls (SOX Section 404)
+affects(sox_404_compliance_requirements, additional_expenses_and_management_time_diversion).
+affects(internal_controls_not_operating_effectively, material_control_disclosure).
+affects(identification_of_material_weakness_in_internal_controls, indicates_lack_of_proper_controls).
+affects(non_compliance_with_sox_404_requirements, sanctions_or_investigation_by_authorities).
+affects(regulatory_action_for_sox_404_non_compliance, adverse_financial_results).
+affects(regulatory_action_for_sox_404_non_compliance, adverse_effect_on_stock_price).
+
+%% Import and Export Control Procedures
+affects(products_tech_software_subject_to_import_export_laws, potential_restrictions_or_licensing).
+affects(non_compliance_with_import_export_regulations, investigation_sanctions_or_penalties).
+affects(regulatory_action_for_import_export_non_compliance, adverse_financial_results).
+affects(regulatory_action_for_import_export_non_compliance, adverse_effect_on_stock_price).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Rule for Transitive Effects (Indirect Effects)
+% indirectly_affects(X, Y) is true if X affects Y directly,
+% or if X affects some Z which directly or indirectly affects Y.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+indirectly_affects(X, Y) :- affects(X, Y).
+indirectly_affects(X, Y) :- affects(X, Z), indirectly_affects(Z, Y).
+

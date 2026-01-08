@@ -1,0 +1,9 @@
+Name,Description,PartNumber,Stock,StorageLocation,Footprint,Manufacturer,InternalPartNumber,Comment,Category
+"20ft High Cube Shipping Container","Used, Grade A, wind and water tight.","CONT-20HC",1,"Yard A","40' Container","Various","TH-RAW-001","Base structure for the tiny home.","Raw Materials"
+"Sliding Glass Door Assembly","8' x 7', dual pane, low-E glass, vinyl frame.","DOOR-SLD-8x7",2,"Warehouse Bay 1","Door Assembly","Andersen","TH-COMP-002","Main living area door.","Components"
+"Fixed Window","3' x 3', dual pane, tempered glass, aluminum frame.","WIN-FIX-3x3",4,"Warehouse Bay 1","Window Assembly","Pella","TH-COMP-003","Living area and bedroom windows.","Components"
+"20-gauge Steel Stud","8ft length, for interior non-load-bearing walls.","FRAME-STL-STUD",100,"Warehouse Bay 2","8' Stud","ClarkDietrich","TH-RAW-004","Framing for bathroom and partitions.","Raw Materials"
+"Closed-Cell Spray Foam Insulation Kit","600 board feet kit. R-7 per inch.","INSUL-SPRAY-KIT",5,"Warehouse Bay 3","Insulation Kit","FoamIt Green","TH-RAW-005","For walls and ceiling insulation.","Raw Materials"
+"12/2 Electrical Wire","250ft roll, non-metallic (NM-B), for interior wiring.","ELEC-WIRE-12G",10,"Warehouse Bay 4","Wire Roll","Southwire","TH-RAW-006","For outlets and lighting circuits.","Raw Materials"
+"1/2\" PEX-A Tubing","100ft roll, for potable hot and cold water lines.","PLUMB-PEX-A",8,"Warehouse Bay 4","Tubing Roll","Uponor","TH-RAW-007","Flexible plumbing for kitchen and bath.","Raw Materials"
+"Kitchenette Sink","24\" stainless steel, single bowl, undermount.","FIXT-SINK-KITCH",3,"Warehouse Bay 5","Sink","Kraus","TH-FIXT-008","For the kitchen area.","Fixtures"

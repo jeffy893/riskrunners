@@ -1,0 +1,60 @@
+Task_ID,Task_Name,Prompt_ID,Prompt_Text,Expected_Output,AI_Model
+2,Map ISO 31000 Risk Components,P2-1,"Create comprehensive mapping of ISO 31000 risk management components to database schema","Database ERD with ISO 31000 compliance",Claude-3.5
+2,Map ISO 31000 Risk Components,P2-2,"Generate data dictionary for ISO 31000 risk management terminology and definitions","Standardized data dictionary document",GPT-4
+2,Map ISO 31000 Risk Components,P2-3,"Design compliance checklist for ISO 31000 implementation validation","ISO compliance validation framework",Claude-3.5
+3,Implement Risk Identification Module,P3-1,"Create risk identification framework using systematic hazard analysis methodologies","Risk identification system with templates",GPT-4
+3,Implement Risk Identification Module,P3-2,"Implement automated risk scanning from multiple data sources including news and reports","Automated risk detection pipeline",Claude-3.5
+3,Implement Risk Identification Module,P3-3,"Design risk categorization system aligned with actuarial science principles","Risk taxonomy and classification system",GPT-4
+3,Implement Risk Identification Module,P3-4,"Create stakeholder risk input system for collaborative risk identification","Stakeholder input interface and workflow",Claude-3.5
+4,Build Risk Analysis Engine,P4-1,"Implement quantitative risk analysis using Monte Carlo simulation and sensitivity analysis","Risk analysis engine with simulations",GPT-4
+4,Build Risk Analysis Engine,P4-2,"Create qualitative risk assessment framework with scoring matrices and heat maps","Qualitative assessment tools and visualizations",Claude-3.5
+4,Build Risk Analysis Engine,P4-3,"Design risk correlation analysis system for identifying interdependent risks","Risk correlation and dependency analysis",GPT-4
+4,Build Risk Analysis Engine,P4-4,"Implement actuarial modeling for frequency and severity distributions","Actuarial models with statistical distributions",Claude-3.5
+5,Create Risk Evaluation Framework,P5-1,"Design risk appetite and tolerance framework with measurable criteria","Risk appetite definition and measurement",GPT-4
+5,Create Risk Evaluation Framework,P5-2,"Implement risk prioritization system using multi-criteria decision analysis","Risk ranking and prioritization algorithms",Claude-3.5
+5,Create Risk Evaluation Framework,P5-3,"Create risk acceptance criteria based on regulatory and business requirements","Risk acceptance framework with thresholds",GPT-4
+7,Digitize FM Exam Materials,P7-1,"Convert Financial Mathematics exam content into interactive digital format with practice problems","Interactive FM exam preparation system",Claude-3.5
+7,Digitize FM Exam Materials,P7-2,"Create adaptive learning system for FM exam topics with personalized study paths","Adaptive learning algorithm for FM content",GPT-4
+7,Digitize FM Exam Materials,P7-3,"Implement progress tracking and performance analytics for FM exam preparation","Progress tracking with analytics dashboard",Claude-3.5
+8,Implement P Exam Simulations,P8-1,"Create probability exam simulation engine with random problem generation","P exam simulation with problem generator",GPT-4
+8,Implement P Exam Simulations,P8-2,"Design probability distribution calculator with interactive visualizations","Probability calculator with visual tools",Claude-3.5
+8,Implement P Exam Simulations,P8-3,"Implement statistical inference testing framework for P exam concepts","Statistical testing and inference tools",GPT-4
+8,Implement P Exam Simulations,P8-4,"Create Bayesian analysis tools for probability exam applications","Bayesian analysis implementation",Claude-3.5
+9,Build Numerical Methods Library,P9-1,"Implement numerical integration methods for actuarial calculations including Simpson's rule","Numerical integration library",GPT-4
+9,Build Numerical Methods Library,P9-2,"Create root-finding algorithms for solving actuarial equations","Root-finding numerical methods",Claude-3.5
+9,Build Numerical Methods Library,P9-3,"Design optimization algorithms for actuarial parameter estimation","Optimization methods for parameter fitting",GPT-4
+11,Implement Process Failure Analysis,P11-1,"Create PFMEA (Process Failure Mode and Effects Analysis) framework for risk assessment","PFMEA analysis system with templates",Claude-3.5
+11,Implement Process Failure Analysis,P11-2,"Design failure mode detection system with severity and occurrence ratings","Failure mode analysis with scoring",GPT-4
+11,Implement Process Failure Analysis,P11-3,"Implement corrective action tracking system for identified failure modes","Action tracking and management system",Claude-3.5
+12,Build Underwriting Cycle Model,P12-1,"Create underwriting cycle simulation from Excess & Surplus to primary insurance lines","Underwriting cycle modeling system",GPT-4
+12,Build Underwriting Cycle Model,P12-2,"Implement market awareness tracking using hashtag analysis and social sentiment","Market awareness monitoring system",Claude-3.5
+12,Build Underwriting Cycle Model,P12-3,"Design Sherlock investigation system for modeling new risk exposures","Risk exposure investigation framework",GPT-4
+13,Create E&S Risk Tracking,P13-1,"Implement Excess & Surplus risk monitoring with emerging risk identification","E&S risk tracking and monitoring system",Claude-3.5
+13,Create E&S Risk Tracking,P13-2,"Create risk migration tracking from E&S to mainstream insurance markets","Risk migration analysis and tracking",GPT-4
+15,Design Sensor Integration Framework,P15-1,"Create IoT sensor integration framework for parametric insurance applications","IoT sensor integration architecture",Claude-3.5
+15,Design Sensor Integration Framework,P15-2,"Implement real-time data processing pipeline for sensor readings","Real-time sensor data processing system",GPT-4
+15,Design Sensor Integration Framework,P15-3,"Design sensor calibration and validation system for data quality assurance","Sensor validation and quality control",Claude-3.5
+16,Implement Threshold Management,P16-1,"Create dynamic threshold management system for parametric insurance triggers","Threshold management with dynamic updates",GPT-4
+16,Implement Threshold Management,P16-2,"Implement geographic risk zoning with different threshold levels","Geographic zoning with risk-based thresholds",Claude-3.5
+16,Implement Threshold Management,P16-3,"Design threshold optimization using historical data and market conditions","Threshold optimization algorithms",GPT-4
+17,Build Automated Payout System,P17-1,"Create automated claims processing system triggered by sensor threshold breaches","Automated claims processing workflow",Claude-3.5
+17,Build Automated Payout System,P17-2,"Implement fraud detection system for parametric insurance claims","Fraud detection for parametric claims",GPT-4
+17,Build Automated Payout System,P17-3,"Design payout calculation engine with policy terms and coverage limits","Payout calculation with policy integration",Claude-3.5
+19,Implement Business Rule Extraction,P19-1,"Create NLP system for extracting business rules from insurance policy documents","Business rule extraction from policies",GPT-4
+19,Implement Business Rule Extraction,P19-2,"Implement natural language processing for Yelp review analysis and policy compliance","NLP for review analysis and compliance",Claude-3.5
+19,Implement Business Rule Extraction,P19-3,"Design rule synonymization system for standardizing policy language","Rule standardization and synonymization",GPT-4
+20,Build Anomaly Detection System,P20-1,"Create anomaly detection system for identifying policy violations and unusual patterns","Anomaly detection for policy compliance",Claude-3.5
+20,Build Anomaly Detection System,P20-2,"Implement machine learning models for detecting fraudulent claims patterns","ML-based fraud detection system",GPT-4
+20,Build Anomaly Detection System,P20-3,"Design behavioral analysis system for identifying risk pattern changes","Behavioral pattern analysis system",Claude-3.5
+21,Create Policy Compliance Checker,P21-1,"Implement automated policy compliance validation against regulatory requirements","Automated compliance checking system",GPT-4
+21,Create Policy Compliance Checker,P21-2,"Create regulatory change monitoring system with automatic policy updates","Regulatory monitoring and update system",Claude-3.5
+21,Create Policy Compliance Checker,P21-3,"Design compliance reporting system with audit trails and documentation","Compliance reporting with audit trails",GPT-4
+23,Integrate with RiskRunners Platform,P23-1,"Create API integration layer connecting actuarial platform with RiskRunners ecosystem","API integration with unified authentication",Claude-3.5
+23,Integrate with RiskRunners Platform,P23-2,"Implement data synchronization between actuarial models and risk factor database","Data sync between platforms",GPT-4
+23,Integrate with RiskRunners Platform,P23-3,"Design unified dashboard combining actuarial metrics with risk factor analysis","Unified analytics dashboard",Claude-3.5
+24,Perform End-to-End Testing,P24-1,"Create comprehensive test suite covering all actuarial calculation workflows","End-to-end test automation suite",GPT-4
+24,Perform End-to-End Testing,P24-2,"Implement regulatory compliance testing with audit trail validation","Compliance testing with audit validation",Claude-3.5
+24,Perform End-to-End Testing,P24-3,"Design performance testing for high-volume actuarial calculations","Performance testing for calculations",GPT-4
+25,Deploy Production Environment,P25-1,"Create production deployment pipeline with blue-green deployment strategy","Production deployment with zero downtime",Claude-3.5
+25,Deploy Production Environment,P25-2,"Implement monitoring and alerting for actuarial platform health and performance","Production monitoring and alerting setup",GPT-4
+25,Deploy Production Environment,P25-3,"Design disaster recovery and backup strategy for actuarial data and models","DR and backup strategy implementation",Claude-3.5

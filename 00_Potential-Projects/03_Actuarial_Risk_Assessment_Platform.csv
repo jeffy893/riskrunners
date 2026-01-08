@@ -1,0 +1,27 @@
+Task Name,Duration,Start Date,Finish Date,Predecessors,Resource Names,Work,Cost,Priority
+Actuarial Risk Assessment Platform,85 days,2025-01-20,2025-05-30,,Actuarial Team,680 hours,$68000,900
+  Phase 1: ISO Risk Framework Implementation,25 days,2025-01-20,2025-02-21,,Standards Team,200 hours,$20000,1000
+    Map ISO 31000 Risk Components,5 days,2025-01-20,2025-01-24,,Risk Analyst,40 hours,$4000,1000
+    Implement Risk Identification Module,8 days,2025-01-27,2025-02-07,2,Risk Engineer,64 hours,$6400,1000
+    Build Risk Analysis Engine,7 days,2025-02-10,2025-02-18,3,Quantitative Analyst,56 hours,$5600,1000
+    Create Risk Evaluation Framework,5 days,2025-02-19,2025-02-25,4,Risk Manager,40 hours,$4000,1000
+  Phase 2: Actuarial Exam Integration,20 days,2025-02-24,2025-03-21,5,Education Team,160 hours,$16000,950
+    Digitize FM Exam Materials,7 days,2025-02-24,2025-03-04,,Content Developer,56 hours,$5600,900
+    Implement P Exam Simulations,8 days,2025-03-05,2025-03-14,7,Simulation Developer,64 hours,$6400,900
+    Build Numerical Methods Library,5 days,2025-03-17,2025-03-21,8,Mathematical Engineer,40 hours,$4000,900
+  Phase 3: PFMEA Integration,15 days,2025-03-24,2025-04-11,9,Process Team,120 hours,$12000,850
+    Implement Process Failure Analysis,5 days,2025-03-24,2025-03-28,,Process Engineer,40 hours,$4000,800
+    Build Underwriting Cycle Model,7 days,2025-03-31,2025-04-08,11,Underwriting Specialist,56 hours,$5600,800
+    Create E&S Risk Tracking,3 days,2025-04-09,2025-04-11,12,Insurance Analyst,24 hours,$2400,800
+  Phase 4: Parametric Insurance Engine,15 days,2025-04-14,2025-05-02,13,Insurance Tech Team,120 hours,$12000,800
+    Design Sensor Integration Framework,5 days,2025-04-14,2025-04-18,,IoT Engineer,40 hours,$4000,750
+    Implement Threshold Management,5 days,2025-04-21,2025-04-25,15,Algorithm Developer,40 hours,$4000,750
+    Build Automated Payout System,5 days,2025-04-28,2025-05-02,16,Payment Engineer,40 hours,$4000,750
+  Phase 5: Natural Language Processing,10 days,2025-05-05,2025-05-16,17,NLP Team,80 hours,$8000,750
+    Implement Business Rule Extraction,5 days,2025-05-05,2025-05-09,,NLP Engineer,40 hours,$4000,700
+    Build Anomaly Detection System,3 days,2025-05-12,2025-05-14,19,ML Engineer,24 hours,$2400,700
+    Create Policy Compliance Checker,2 days,2025-05-15,2025-05-16,20,Compliance Engineer,16 hours,$1600,700
+  Phase 6: Integration & Deployment,10 days,2025-05-19,2025-05-30,21,Integration Team,80 hours,$8000,700
+    Integrate with RiskRunners Platform,5 days,2025-05-19,2025-05-23,,Integration Engineer,40 hours,$4000,650
+    Perform End-to-End Testing,3 days,2025-05-26,2025-05-28,23,QA Engineer,24 hours,$2400,650
+    Deploy Production Environment,2 days,2025-05-29,2025-05-30,24,DevOps Engineer,16 hours,$1600,650

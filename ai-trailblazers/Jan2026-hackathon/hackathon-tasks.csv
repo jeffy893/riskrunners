@@ -1,0 +1,29 @@
+ID,Name,Duration,Predecessors,Resource Names
+1,PHASE 1: PARTNERSHIP & VENUE,,,
+2,Draft "Founder Returns" Partnership Proposal,2 days,,Project Lead
+3,Email UA Risk Runners Faculty Advisors,0 days,2,Project Lead
+4,Meeting with Faculty/Math Dept,1 day,3,Project Lead, Faculty Advisor
+5,Wait for Dept Approval,5 days,4,
+6,Confirm Room Availability (Capacity 40-60),1 day,5,Math Dept Admin
+7,**MILESTONE: Room Secured**,0 days,6,
+8,PHASE 2: MARKETING (AI TRAILBLAZERS),,,
+9,Sync with Maria & Aaron on Strategy,1 day,7,Project Lead, Maria, Aaron
+10,Draft Flyer Copy (Highlighting Job Ops),2 days,9,Maria
+11,Design Flyer Graphics,3 days,10,Aaron
+12,Final Review & Approval,1 day,11,Project Lead
+13,Distribute to UA Dept Lists,1 day,12,Faculty Advisor
+14,Social Media Blast,1 day,12,Maria
+15,PHASE 3: CURRICULUM & JOBS,,,
+16,Define AI Challenge Scope,3 days,2,Project Lead
+17,Reach out to Corporate Partners for Jobs,5 days,2,Project Lead
+18,Prepare Datasets for Hackathon,3 days,16,Project Lead
+19,PHASE 4: LOGISTICS,,,
+20,Estimate Food Budget (40-60 ppl),1 day,7,Project Lead
+21,Order Catering (Pizza/Drinks),1 day,20,Project Lead
+22,Purchase Swag/Prizes,5 days,20,Project Lead
+23,Confirm WiFi/Power with Facilities,1 day,7,Project Lead
+24,PHASE 5: THE EVENT,,,
+25,Room Setup & Registration,2 hours,13;21;23,Project Lead, Maria, Aaron
+26,**HACKATHON EVENT**,8 hours,25,Project Lead, Maria, Aaron, Faculty Advisor
+27,Teardown & Cleanup,2 hours,26,Project Lead
+28,Post-Event Follow up (Job Placements),2 days,27,Project Lead

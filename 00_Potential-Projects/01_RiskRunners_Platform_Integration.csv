@@ -1,0 +1,26 @@
+Task Name,Duration,Start Date,Finish Date,Predecessors,Resource Names,Work,Cost,Priority
+RiskRunners Platform Integration,90 days,2025-01-06,2025-05-15,,Platform Team,720 hours,$75000,1000
+  Phase 1: Core Infrastructure,30 days,2025-01-06,2025-02-14,,Infrastructure Team,240 hours,$25000,1000
+    Setup AWS Infrastructure,5 days,2025-01-06,2025-01-10,,DevOps Engineer,40 hours,$4000,1000
+    Deploy Cortext.io Integration,7 days,2025-01-13,2025-01-21,4,AI Engineer,56 hours,$5600,1000
+    Configure Elastic Search Backend,5 days,2025-01-22,2025-01-28,5,Backend Developer,40 hours,$4000,1000
+    Implement ISO Risk Data Model,8 days,2025-01-29,2025-02-07,6,Data Architect,64 hours,$6400,1000
+    Setup DynamoDB Risk Repository,5 days,2025-02-10,2025-02-14,7,Database Engineer,40 hours,$5000,1000
+  Phase 2: Lean Dream Prolog Engine,25 days,2025-02-17,2025-03-21,8,AI Team,200 hours,$20000,1000
+    Extract Risk Factors from 10-K Reports,8 days,2025-02-17,2025-02-28,,NLP Engineer,64 hours,$6400,900
+    Build Prolog Script Generator,7 days,2025-03-03,2025-03-11,10,Prolog Developer,56 hours,$5600,900
+    Implement Query Engine,5 days,2025-03-12,2025-03-18,11,Backend Developer,40 hours,$4000,900
+    Create Risk Predicate Database,5 days,2025-03-19,2025-03-25,12,Data Engineer,40 hours,$4000,900
+  Phase 3: Agentic Procurement Integration,20 days,2025-03-24,2025-04-18,13,Automation Team,160 hours,$16000,900
+    Deploy Bedrock Claude Integration,5 days,2025-03-24,2025-03-28,,AI Engineer,40 hours,$4000,800
+    Setup Inventory Monitoring System,7 days,2025-03-31,2025-04-08,15,Backend Developer,56 hours,$5600,800
+    Implement Substitute Detection Logic,5 days,2025-04-09,2025-04-15,16,Algorithm Engineer,40 hours,$4000,800
+    Configure EventBridge Automation,3 days,2025-04-16,2025-04-18,17,DevOps Engineer,24 hours,$2400,800
+  Phase 4: RiskRunners.com Enhancement,15 days,2025-04-21,2025-05-09,18,Frontend Team,120 hours,$12000,800
+    Redesign Search Interface,5 days,2025-04-21,2025-04-25,,UI/UX Designer,40 hours,$4000,700
+    Implement Real-time Risk Alerts,5 days,2025-04-28,2025-05-02,20,Frontend Developer,40 hours,$4000,700
+    Add Interactive Risk Visualization,5 days,2025-05-05,2025-05-09,21,Data Visualization Engineer,40 hours,$4000,700
+  Phase 5: Testing & Deployment,10 days,2025-05-12,2025-05-23,22,QA Team,80 hours,$8000,700
+    Integration Testing,5 days,2025-05-12,2025-05-16,,QA Engineer,40 hours,$4000,600
+    Performance Testing,3 days,2025-05-19,2025-05-21,24,Performance Engineer,24 hours,$2400,600
+    Production Deployment,2 days,2025-05-22,2025-05-23,25,DevOps Engineer,16 hours,$1600,600

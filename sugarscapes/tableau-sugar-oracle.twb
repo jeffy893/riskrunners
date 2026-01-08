@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='tableau-sugar-oracle' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='simulation_results_with_id' inline='true' name='federated.1up3z8u1v60s7j1agz6ed0m9rdtg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='simulation_results_with_id' name='textscan.0442o8c17uuog31792eqo14qtirb'>
+            <connection class='textscan' directory='/Users/jefferson/000_coderepo/riskrunners/sugarscapes' filename='simulation_results_with_id.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0442o8c17uuog31792eqo14qtirb' name='simulation_results_with_id.csv' table='[simulation_results_with_id#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='simulation_id' ordinal='0' />
+            <column datatype='integer' name='num_people' ordinal='1' />
+            <column datatype='integer' name='max_visits_per_month' ordinal='2' />
+            <column datatype='integer' name='num_diagnosed' ordinal='3' />
+            <column datatype='integer' name='num_covered' ordinal='4' />
+            <column datatype='real' name='total_insured_cost' ordinal='5' />
+            <column datatype='real' name='annual_premium_per_person' ordinal='6' />
+            <column datatype='real' name='monthly_premium_per_person' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>simulation_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[simulation_id]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>simulation_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_people</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_people]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>num_people</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max_visits_per_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max_visits_per_month]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>max_visits_per_month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_diagnosed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_diagnosed]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>num_diagnosed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_covered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_covered]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>num_covered</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_insured_cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_insured_cost]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>total_insured_cost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_premium_per_person</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annual_premium_per_person]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>annual_premium_per_person</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_premium_per_person</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monthly_premium_per_person]</local-name>
+            <parent-name>[simulation_results_with_id.csv]</parent-name>
+            <remote-alias>monthly_premium_per_person</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='simulation_results_with_id.csv' datatype='table' name='[__tableau_internal_object_id__].[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]' role='measure' type='quantitative' />
+      <column caption='Annual Premium Per Person' datatype='real' name='[annual_premium_per_person]' role='measure' type='quantitative' />
+      <column caption='Max Visits Per Month' datatype='integer' name='[max_visits_per_month]' role='dimension' type='quantitative' />
+      <column caption='Monthly Premium Per Person' datatype='real' name='[monthly_premium_per_person]' role='measure' type='quantitative' />
+      <column caption='Num Covered' datatype='integer' name='[num_covered]' role='measure' type='quantitative' />
+      <column caption='Num Diagnosed' datatype='integer' name='[num_diagnosed]' role='measure' type='ordinal' />
+      <column aggregation='Sum' caption='Risk Pool Size' datatype='integer' name='[num_people]' role='dimension' type='ordinal' />
+      <column caption='Simulation Id' datatype='integer' name='[simulation_id]' role='dimension' type='ordinal' />
+      <column caption='Total Insured Cost' datatype='real' default-format='C1033%' name='[total_insured_cost]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/xs/288t1w616dg4pq4vczq9q4pc0000gn/T/tableau-temp/#TableauTemp_1gghwx31njizfh15al19w1htoke5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>simulation_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[simulation_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>simulation_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_people</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_people]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_people</remote-alias>
+              <ordinal>1</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max_visits_per_month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[max_visits_per_month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max_visits_per_month</remote-alias>
+              <ordinal>2</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_diagnosed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_diagnosed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_diagnosed</remote-alias>
+              <ordinal>3</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_covered</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_covered]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_covered</remote-alias>
+              <ordinal>4</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_insured_cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_insured_cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_insured_cost</remote-alias>
+              <ordinal>5</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>82</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>annual_premium_per_person</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[annual_premium_per_person]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annual_premium_per_person</remote-alias>
+              <ordinal>6</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>monthly_premium_per_person</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[monthly_premium_per_person]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>monthly_premium_per_person</remote-alias>
+              <ordinal>7</ordinal>
+              <family>simulation_results_with_id.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='simulation_results_with_id.csv' id='simulation_results_with_id.csv_D79AF4C69B744D6EA632BC6A06A45CB8'>
+            <properties context=''>
+              <relation connection='textscan.0442o8c17uuog31792eqo14qtirb' name='simulation_results_with_id.csv' table='[simulation_results_with_id#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='simulation_id' ordinal='0' />
+                  <column datatype='integer' name='num_people' ordinal='1' />
+                  <column datatype='integer' name='max_visits_per_month' ordinal='2' />
+                  <column datatype='integer' name='num_diagnosed' ordinal='3' />
+                  <column datatype='integer' name='num_covered' ordinal='4' />
+                  <column datatype='real' name='total_insured_cost' ordinal='5' />
+                  <column datatype='real' name='annual_premium_per_person' ordinal='6' />
+                  <column datatype='real' name='monthly_premium_per_person' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Insured Cost by Max Visits'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='simulation_results_with_id' name='federated.1up3z8u1v60s7j1agz6ed0m9rdtg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1up3z8u1v60s7j1agz6ed0m9rdtg'>
+            <column-instance column='[total_insured_cost]' derivation='Avg' name='[avg:total_insured_cost:qk]' pivot='key' type='quantitative' />
+            <column caption='Max Visits Per Month' datatype='integer' name='[max_visits_per_month]' role='dimension' type='quantitative' />
+            <column-instance column='[max_visits_per_month]' derivation='None' name='[none:max_visits_per_month:qk]' pivot='key' type='quantitative' />
+            <column caption='Num Covered' datatype='integer' name='[num_covered]' role='measure' type='quantitative' />
+            <column-instance column='[num_covered]' derivation='Sum' name='[sum:num_covered:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Insured Cost' datatype='real' default-format='C1033%' name='[total_insured_cost]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[avg:total_insured_cost:qk]' value='c&quot;$&quot;#,##0;-&quot;$&quot;#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[avg:total_insured_cost:qk]</rows>
+        <cols>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]</cols>
+      </table>
+      <simple-id uuid='{587C7DEC-7595-4CAD-8BDB-95D673BDEEB6}' />
+    </worksheet>
+    <worksheet name='Num Covered by Risk pool Size'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='simulation_results_with_id' name='federated.1up3z8u1v60s7j1agz6ed0m9rdtg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1up3z8u1v60s7j1agz6ed0m9rdtg'>
+            <column caption='Max Visits Per Month' datatype='integer' name='[max_visits_per_month]' role='dimension' type='quantitative' />
+            <column-instance column='[max_visits_per_month]' derivation='None' name='[none:max_visits_per_month:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[num_people]' derivation='None' name='[none:num_people:ok]' pivot='key' type='ordinal' />
+            <column caption='Num Covered' datatype='integer' name='[num_covered]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Risk Pool Size' datatype='integer' name='[num_people]' role='dimension' type='ordinal' />
+            <column-instance column='[num_covered]' derivation='Sum' name='[sum:num_covered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' palette='red_green_white_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]</rows>
+        <cols>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:num_people:ok]</cols>
+      </table>
+      <simple-id uuid='{5612AA98-1A43-4CC3-A805-C27EFD9EA6B9}' />
+    </worksheet>
+    <worksheet name='Premium by Max Visits'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='simulation_results_with_id' name='federated.1up3z8u1v60s7j1agz6ed0m9rdtg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1up3z8u1v60s7j1agz6ed0m9rdtg'>
+            <column-instance column='[monthly_premium_per_person]' derivation='Avg' name='[avg:monthly_premium_per_person:qk]' pivot='key' type='quantitative' />
+            <column caption='Max Visits Per Month' datatype='integer' name='[max_visits_per_month]' role='dimension' type='quantitative' />
+            <column caption='Monthly Premium Per Person' datatype='real' name='[monthly_premium_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[max_visits_per_month]' derivation='None' name='[none:max_visits_per_month:qk]' pivot='key' type='quantitative' />
+            <column caption='Num Covered' datatype='integer' name='[num_covered]' role='measure' type='quantitative' />
+            <column-instance column='[num_covered]' derivation='Sum' name='[sum:num_covered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[avg:monthly_premium_per_person:qk]' value='c&quot;$&quot;#,##0.000;-&quot;$&quot;#,##0.000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[avg:monthly_premium_per_person:qk]</rows>
+        <cols>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]</cols>
+      </table>
+      <simple-id uuid='{954D27A9-3381-4866-852B-71770DE9592E}' />
+    </worksheet>
+    <worksheet name='Premium by Risk Pool Size'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='simulation_results_with_id' name='federated.1up3z8u1v60s7j1agz6ed0m9rdtg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1up3z8u1v60s7j1agz6ed0m9rdtg'>
+            <column caption='Max Visits Per Month' datatype='integer' name='[max_visits_per_month]' role='dimension' type='quantitative' />
+            <column caption='Monthly Premium Per Person' datatype='real' name='[monthly_premium_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[max_visits_per_month]' derivation='None' name='[none:max_visits_per_month:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[num_people]' derivation='None' name='[none:num_people:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[simulation_id]' derivation='None' name='[none:simulation_id:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='Risk Pool Size' datatype='integer' name='[num_people]' role='dimension' type='ordinal' />
+            <column caption='Simulation Id' datatype='integer' name='[simulation_id]' role='dimension' type='ordinal' />
+            <column-instance column='[monthly_premium_per_person]' derivation='Sum' name='[sum:monthly_premium_per_person:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:monthly_premium_per_person:qk]' value='c&quot;$&quot;#,##0.000;-&quot;$&quot;#,##0.000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' palette='red_green_white_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' />
+              <lod column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:simulation_id:ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:monthly_premium_per_person:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:monthly_premium_per_person:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:monthly_premium_per_person:qk]</rows>
+        <cols>[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:num_people:ok]</cols>
+      </table>
+      <simple-id uuid='{F1521AA1-E685-4497-9C10-929A11D0F200}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Sugar Oracle'>
+      <style />
+      <size maxheight='860' maxwidth='1720' minheight='560' minwidth='1620' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98034' id='8' param='horz' type-v2='layout-flow' w='99054' x='473' y='983'>
+            <zone h='98034' id='6' type-v2='layout-basic' w='89603' x='473' y='983'>
+              <zone h='49017' id='3' name='Premium by Risk Pool Size' w='44792' x='473' y='983'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49017' id='5' name='Num Covered by Risk pool Size' w='44792' x='473' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49017' id='10' name='Premium by Max Visits' w='44811' x='45265' y='983'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49017' id='12' name='Insured Cost by Max Visits' w='44811' x='45265' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98034' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='9451' x='90076' y='983'>
+              <zone h='7985' id='9' name='Num Covered by Risk pool Size' pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' type-v2='color' w='9451' x='90076' y='983'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7985' id='11' name='Premium by Max Visits' pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' type-v2='color' w='9451' x='90076' y='8968'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98034' id='19' param='vert' type-v2='layout-flow' w='99054' x='473' y='983'>
+                <zone fixed-size='280' h='49017' id='3' is-fixed='true' name='Premium by Risk Pool Size' w='44792' x='473' y='983'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49017' id='10' is-fixed='true' name='Premium by Max Visits' w='44811' x='45265' y='983'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7985' id='11' name='Premium by Max Visits' pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' type-v2='color' w='9451' x='90076' y='8968'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49017' id='5' is-fixed='true' name='Num Covered by Risk pool Size' w='44792' x='473' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7985' id='9' name='Num Covered by Risk pool Size' pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' type-v2='color' w='9451' x='90076' y='983'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49017' id='12' is-fixed='true' name='Insured Cost by Max Visits' w='44811' x='45265' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{98919F36-4C5C-4D05-B6CC-1828E178BAE2}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Premium by Risk Pool Size'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{42647E6E-5BC5-40E4-8DA1-70D8845D3B72}' />
+    </window>
+    <window class='worksheet' name='Num Covered by Risk pool Size'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[none:max_visits_per_month:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9F8E45F5-9CF9-4799-ADBE-F5874D9CFA93}' />
+    </window>
+    <window class='worksheet' name='Premium by Max Visits'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{92DFC132-8B03-4943-9852-A2B8AD16F5F3}' />
+    </window>
+    <window class='worksheet' name='Insured Cost by Max Visits'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1up3z8u1v60s7j1agz6ed0m9rdtg].[sum:num_covered:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7314FA46-1E38-4132-B7E8-624FE4A365E2}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Sugar Oracle'>
+      <viewpoints>
+        <viewpoint name='Insured Cost by Max Visits'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Num Covered by Risk pool Size'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Premium by Max Visits'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Premium by Risk Pool Size'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{E31C72F8-EF73-45B7-B769-C7438EAD3E7C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sugar Oracle' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
