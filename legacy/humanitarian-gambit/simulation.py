@@ -156,8 +156,13 @@ class HumanitarianGambitSimulation:
                 status_quo = self.calculate_payouts_status_quo(test_state)
                 priority_swap = self.calculate_payouts_priority_swap(test_state, 'WestFed (A1)')
                 
+                # Status quo net: what WestFed gets minus what they're owed
                 westfed_status_quo_net = status_quo.get('WestFed (A1)', 0) - 5_000_000_000
-                westfed_priority_swap_net = priority_swap.get('WestFed (A1)_net', 0) - 5_000_000_000
+                
+                # Priority swap net: payout minus refugee cost minus what they're owed
+                westfed_priority_swap_payout = priority_swap.get('WestFed (A1)', 0)
+                westfed_refugee_cost = priority_swap.get('WestFed (A1)_refugee_cost', 0)
+                westfed_priority_swap_net = westfed_priority_swap_payout - westfed_refugee_cost - 5_000_000_000
                 
                 results.append({
                     'Refugee_Cost_Per_Person': refugee_cost,

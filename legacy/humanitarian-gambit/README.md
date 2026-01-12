@@ -52,6 +52,22 @@ Our simulation models a specific case involving lithium reserves worth $10 billi
 3. **Break-even Threshold**: Refugee costs must be below $50,000 per person for the gambit to be profitable
 4. **Resource Dependency**: Strategy only works when resource values exceed $12B
 
+### Counterintuitive Result: Why Higher Resources = Less Refugee Acceptance
+
+The decision matrix reveals a counterintuitive but mathematically correct pattern: **WestFed is less likely to accept refugees when resource values are higher**. This occurs because:
+
+**Low Resource Scenarios ($8B-$10B)**:
+- Status Quo: WestFed gets little or nothing (junior creditor position)
+- Priority Swap: WestFed jumps to senior position, gets substantial payout
+- **Net Effect**: Priority swap is attractive despite refugee costs
+
+**High Resource Scenarios ($12B-$15B)**:
+- Status Quo: WestFed gets fully repaid (resources cover all debts)
+- Priority Swap: WestFed still gets same payout but pays refugee costs
+- **Net Effect**: No benefit from priority jumping, refugee costs are pure loss
+
+This reveals the **"Desperation Threshold"**: the Priority Swap is only attractive when junior creditors face significant losses in the status quo. When resources are abundant, traditional debt structures work fine and there's no incentive for humanitarian intervention.
+
 ## The Three Dark Equilibria
 
 ### 1. Predatory Humanitarianism
