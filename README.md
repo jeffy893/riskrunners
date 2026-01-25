@@ -9,10 +9,10 @@ Welcome to RiskRunners' potential projects - where **actuarial science**, **AI-p
 ### 1. **RiskRunners Platform Integration**
 *90 days • $75K • Foundation for Actuarial AI*
 
-**The Vision:** Unified platform integrating Cortext.io AI, Lean Dream Prolog engine, and Agentic Procurement into a comprehensive risk analysis ecosystem.
+**The Vision:** Unified platform integrating [LinguaLint](https://github.com/jeffy893/lingualint) AI, Lean Dream Prolog engine, and Agentic Procurement into a comprehensive risk analysis ecosystem.
 
 **What We're Building:**
-- **Cortext.io Integration:** AI-powered risk factor extraction from 10-K reports
+- **LinguaLint Integration:** AI-powered risk factor extraction from 10-K reports
 - **Lean Dream Prolog Engine:** Convert risk factors into queryable predicate calculus
 - **Agentic Procurement:** AWS Bedrock Claude integration for automated procurement decisions
 - **Real-time Risk Alerts:** Interactive visualization and monitoring dashboard
@@ -70,7 +70,7 @@ Welcome to RiskRunners' potential projects - where **actuarial science**, **AI-p
 **We Provide:**
 - **1,400+ hours** of structured project work across three platforms
 - **134 detailed prompts** for AI-assisted development (Claude-3.5/GPT-4)
-- **Existing codebase:** Cortext.io, Account Ninja, Agentic Procurement prototypes
+- **Existing codebase:** [LinguaLint](https://github.com/jeffy893/lingualint), Account Ninja, Agentic Procurement prototypes
 - **Theoretical foundation:** Antifragile theory, 3Zen accounting, MANGO diplomacy
 - **Industry connections:** Actuarial science and risk management networks
 
