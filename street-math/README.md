@@ -2,6 +2,8 @@
 
 **ISO 31010 Risk Assessment Techniques — Through Storytelling**
 
+This is migrated over to [street.riskrunners.com](https://street.riskrunners.com)
+
 Ten screenplays that teach formal risk analysis techniques from ISO 31010 through everyday street-level scenarios. No boardrooms. No PowerPoints. Just characters who speak probability, expected value, and root cause analysis in their own language.
 
 ## The Screenplays
