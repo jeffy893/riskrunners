@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Math — ISO 31010 Risk Analysis Through Storytelling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@300;400;600;700;900&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #08080d;
+            color: #d0d0d0;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* ── Hero ── */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(220,50,80,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 50%, rgba(60,120,230,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 50% 80%, rgba(140,100,230,0.06) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        /* Grid background */
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+
+        .hero-content { position: relative; z-index: 1; max-width: 800px; }
+
+        .hero-tag {
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.85em;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #dc3250;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(3em, 8vw, 6em);
+            font-weight: 900;
+            line-height: 1.05;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, #fff 0%, #aaa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 25px;
+        }
+
+        .hero-sub {
+            font-size: 1.25em;
+            color: #888;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            font-weight: 300;
+        }
+
+        .hero-iso {
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.8em;
+            color: #555;
+            letter-spacing: 2px;
+        }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #444;
+            font-size: 0.8em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.8; }
+        }
+
+        /* ── Intro Section ── */
+        .intro {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            color: #999;
+            font-size: 1.05em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .intro .accent { color: #dc3250; }
+
+        /* ── Screenplay Grid ── */
+        .grid-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px 100px;
+        }
+
+        .grid-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .grid-header h2 {
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.85em;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #dc3250;
+            margin-bottom: 10px;
+        }
+
+        .grid-header p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: #0f0f18;
+            border: 1px solid #1a1a2e;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+        }
+
+        .card-accent {
+            height: 4px;
+            width: 100%;
+        }
+
+        .card-body {
+            padding: 28px 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-iso {
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.75em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .card-scenario {
+            font-size: 0.88em;
+            color: #888;
+            line-height: 1.7;
+            flex: 1;
+            margin-bottom: 20px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 16px;
+            border-top: 1px solid #1a1a2e;
+        }
+
+        .card-pages {
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.75em;
+            color: #555;
+            letter-spacing: 1px;
+        }
+
+        .card-cta {
+            font-size: 0.85em;
+            font-weight: 600;
+            letter-spacing: 1px;
+            transition: opacity 0.2s;
+        }
+
+        .card:hover .card-cta { opacity: 1; }
+        .card .card-cta { opacity: 0.7; }
+
+        /* ── Footer ── */
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            border-top: 1px solid #141420;
+            color: #444;
+            font-size: 0.85em;
+        }
+
+        footer .brand {
+            font-family: 'Courier Prime', monospace;
+            font-size: 1em;
+            letter-spacing: 3px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            .hero { min-height: 70vh; }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-tag">Risk Runners Presents</div>
+        <h1>Street Math</h1>
+        <p class="hero-sub">Ten ISO 31010 risk assessment techniques, taught not in boardrooms — but on street corners, in dive bars, and across kitchen tables.</p>
+        <div class="hero-iso">ISO 31010 : 2019 — Risk Assessment Techniques</div>
+    </div>
+    <div class="scroll-hint">↓ Scroll to explore ↓</div>
+</section>
+
+<section class="intro">
+    <h2>Risk analysis doesn't need a PowerPoint.</h2>
+    <p>Every technique in <span class="accent">ISO 31010</span> — from Bow Tie Analysis to Markov Chains — was built to help people make better decisions under uncertainty. But somewhere between the standard and the spreadsheet, the intuition gets lost.</p>
+    <p><span class="accent">Street Math</span> puts it back. Each screenplay drops a real risk technique into an everyday scenario — a bouncer working the door, a mechanic sizing up a bad engine, a busker calculating which subway car to play. The math is real. The characters just speak it differently.</p>
+    <p>Ten techniques. Ten stories. Ten pages each.</p>
+</section>
+
+<section class="grid-section">
+    <div class="grid-header">
+        <h2>The Screenplays</h2>
+        <p>Click any card to read the full 10-page screenplay.</p>
+    </div>
+    <div class="grid">
+
+        <!-- 1. Bow Tie Analysis -->
+        <a class="card" href="screenplay_bow_tie_analysis.html" style="border-color: rgba(220,50,80,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #dc3250, #a02040);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #dc3250;">B.4.2 — Bow Tie Analysis</div>
+                <div class="card-title">The Bouncer's Blueprint</div>
+                <div class="card-scenario">A veteran bouncer explains club security to a rookie using bow tie analysis — mapping threats on the left, consequences on the right, and the bar brawl sitting in the middle. Preventative controls, reactive controls, and the escalation factors that break them.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #dc3250;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 2. Decision Tree Analysis -->
+        <a class="card" href="screenplay_decision_tree_analysis.html" style="border-color: rgba(50,200,80,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #32c850, #20a040);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #32c850;">B.9.3 — Decision Tree Analysis</div>
+                <div class="card-title">The Hustler's Gambit</div>
+                <div class="card-scenario">A street hustler maps out whether to pay off a supplier or dodge them — decision nodes, chance nodes, expected values, and the sensitivity analysis that proves the answer is robust even when the estimates are wrong.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #32c850;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 3. Monte Carlo Simulation -->
+        <a class="card" href="screenplay_monte_carlo_simulation.html" style="border-color: rgba(230,140,30,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #e68c1e, #c07018);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #e68c1e;">B.5.10 — Monte Carlo Simulation</div>
+                <div class="card-title">The Mechanic's Odds</div>
+                <div class="card-scenario">A shady mechanic runs 100 mental simulations on a customer's engine — random variables for part wear, driving habits, and weather — to show why the "quick fix" has an 86% chance of catastrophic failure.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #e68c1e;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 4. Game Theory -->
+        <a class="card" href="screenplay_game_theory.html" style="border-color: rgba(60,120,230,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #3c78e6, #3060be);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #3c78e6;">B.9.4 — Game Theory</div>
+                <div class="card-title">The Roommate's Dilemma</div>
+                <div class="card-scenario">Two roommates face the Prisoner's Dilemma when their landlord offers a deal to whoever snitches first. Payoff matrices, Nash Equilibrium, Tit for Tat, and the commitment device that changes the game entirely.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #3c78e6;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 5. LOPA -->
+        <a class="card" href="screenplay_layers_of_protection_analysis_lopa.html" style="border-color: rgba(180,60,200,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #b43cc8, #9030a8);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #b43cc8;">B.4.4 — Layers of Protection Analysis</div>
+                <div class="card-title">The Heist Planner's Calculus</div>
+                <div class="card-scenario">A meticulous heist planner breaks down a vault's independent protection layers — cameras, guards, biometrics, pressure alarms — calculating the probability of failure on demand for each to determine if the job's risk is tolerable.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #b43cc8;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 6. Ishikawa -->
+        <a class="card" href="screenplay_ishikawa_fishbone_analysis.html" style="border-color: rgba(220,170,40,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #dcaa28, #b48c20);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #dcaa28;">B.3.3 — Ishikawa (Fishbone) Analysis</div>
+                <div class="card-title">The Food Truck Meltdown</div>
+                <div class="card-scenario">A food truck owner dissects a ruined lunch rush using the 6Ms — Methods, Machinery, Materials, Manpower, Measurement, and Management — tracing eleven causes back to three root failures.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #dcaa28;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 7. Pareto Charts -->
+        <a class="card" href="screenplay_pareto_charts.html" style="border-color: rgba(40,200,200,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #28c8c8, #20a0a0);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #28c8c8;">B.8.4 — Pareto Charts</div>
+                <div class="card-title">The Bartender's 80/20</div>
+                <div class="card-scenario">A veteran bartender teaches a rookie that 80% of their revenue loss comes from just 20% of the causes — and why fixing the bathroom lock instead of slow service is the most expensive mistake in the business.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #28c8c8;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 8. Cross Impact Analysis -->
+        <a class="card" href="screenplay_cross_impact_analysis.html" style="border-color: rgba(220,60,60,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #dc3c3c, #b43030);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #dc3c3c;">B.6.2 — Cross Impact Analysis</div>
+                <div class="card-title">The Bookie's Web</div>
+                <div class="card-scenario">A seasoned bookie explains how a star player's sprained ankle doesn't just change the game odds — it shifts the conditional probabilities of every connected prop bet. The money isn't in the obvious line; it's in the web.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #dc3c3c;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 9. Cost/Benefit Analysis -->
+        <a class="card" href="screenplay_cost_benefit_analysis_cba.html" style="border-color: rgba(80,200,80,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #50c850, #40a040);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #50c850;">B.9.2 — Cost/Benefit Analysis</div>
+                <div class="card-title">The Loan Shark's Lesson</div>
+                <div class="card-scenario">A loan shark walks a borrower through Net Present Value — showing how a "small" $50 weekly payment is actually a 1,160% annual rate, and why the credit union two blocks away is the rational choice.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #50c850;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 10. Markov Analysis -->
+        <a class="card" href="screenplay_markov_analysis.html" style="border-color: rgba(140,100,230,0.2);">
+            <div class="card-accent" style="background: linear-gradient(90deg, #8c64e6, #7050be);"></div>
+            <div class="card-body">
+                <div class="card-iso" style="color: #8c64e6;">B.5.9 — Markov Analysis</div>
+                <div class="card-title">The Busker's Calculus</div>
+                <div class="card-scenario">A subway saxophone player calculates transition probabilities between Good, Fair, and Failed train cars — building a Markov chain to figure out when to move, when to stay, and how long before transit police end the session.</div>
+                <div class="card-footer">
+                    <span class="card-pages">10 PAGES</span>
+                    <span class="card-cta" style="color: #8c64e6;">Read →</span>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    <div class="brand">STREET MATH</div>
+    <p>ISO 31010 Risk Assessment Techniques — Through Storytelling</p>
+    <p style="margin-top: 8px;">A Risk Runners Project</p>
+</footer>
+
+</body>
+</html>
