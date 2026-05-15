@@ -11,6 +11,7 @@ RiskRunners is a collection of actuarial science tools, AI-powered risk analysis
 | Page | Description |
 |------|-------------|
 | [Repository Structure](Repository-Structure.md) | Full directory map and how the repo is organized |
+| [Project Crucible](Project-Crucible.md) | NERIS fire data → ISO 31010 risk analysis → iTAK/VisionPro visualization |
 | [Flagship Platforms](Flagship-Platforms.md) | The three core platform projects and their implementations |
 | [Actuarial Tools](Actuarial-Tools.md) | Exam prep, financial math, ISO 31000 data model, and research |
 | [Models & Simulations](Models-and-Simulations.md) | Capital lifecycle, pickleball league, and linguistics models |

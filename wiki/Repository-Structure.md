@@ -12,10 +12,12 @@ riskrunners/
 ├── legacy/                # Historical projects and proof-of-concepts
 ├── models/                # Standalone simulation models
 ├── platforms/             # Flagship platform implementations
+├── project-crucible/      # NERIS fire data → ISO 31010 → iTAK/VisionPro
 ├── projects/              # Project plans (CSV) and prompt libraries
 ├── responsibility-futures/# R = I/N engine with Cortext.io integration
 ├── street-math/           # ISO 31010 screenplays
 ├── UA-RiskRunners-Presentation/  # University of Arizona talk materials
+├── wiki/                  # This wiki
 ├── CODEOWNERS             # @jeffy893
 ├── LICENSE                # MIT
 └── README.md              # Main repo overview
@@ -117,4 +119,22 @@ models/
 ├── capital-lifecycle/        # S-curve life capital model (Python + matplotlib)
 ├── linguistics/              # French subjunctive and cultural analysis
 └── pickleball/               # Ladder league simulation (Python + Tableau)
+```
+
+### `project-crucible/`
+```
+project-crucible/
+├── src/
+│   ├── config.py              # Configuration, env vars, simulated data fallback
+│   ├── neris_client.py        # NERIS API client (OAuth2 + paginated fetch)
+│   ├── simulated_data.py      # Realistic AZ fire incidents for demo mode
+│   ├── risk_analysis.py       # ISO 31010 analyses (Bow Tie, FMEA, Decision Tree, Markov)
+│   ├── tak_export.py          # CoT Data Package + KML export for iTAK
+│   ├── main.py                # Orchestrator script
+│   └── generate_pdf_report.py # PDF report with ABM context + TAK screenshots
+├── context/                   # Research notes, coalition reports, NERIS one-pager
+├── images/                    # TAK screenshots + ABM visualizations
+├── output/                    # Generated .zip (CoT), .kml, and .pdf
+├── requirements.txt
+└── README.md
 ```
