@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NERIS: A New Era for Fire Incident Data</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  @page { size: letter; margin: 0; }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #fff;
+    color: #111;
+    width: 8.5in;
+    height: 11in;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0.44in 0.45in 0.44in 0.45in;
+    font-size: 8pt;
+    line-height: 1.42;
+  }
+
+  /* HEADER */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 3px solid #c0392b;
+    padding-bottom: 8px;
+    margin-bottom: 9px;
+  }
+  .header-left h1 {
+    font-size: 17pt;
+    font-weight: 800;
+    color: #c0392b;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+  .header-left h2 {
+    font-size: 8.5pt;
+    font-weight: 500;
+    color: #222;
+    margin-top: 2px;
+  }
+  .header-right {
+    text-align: right;
+    font-size: 7.5pt;
+    color: #222;
+    line-height: 1.55;
+    padding-top: 3px;
+    white-space: nowrap;
+  }
+  .header-right strong { color: #c0392b; font-size: 7.5pt; }
+
+  /* CALLOUT */
+  .callout {
+    background: linear-gradient(135deg, #c0392b 0%, #8e1a10 100%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 7.5pt;
+    font-weight: 600;
+    margin-bottom: 9px;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  /* STAT BOXES */
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 9px;
+  }
+  .stat-box {
+    background: #c0392b;
+    color: #fff;
+    border-radius: 3px;
+    padding: 7px 5px;
+    text-align: center;
+  }
+  .stat-box .num {
+    font-size: 13pt;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .stat-box .label {
+    font-size: 6pt;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 1px;
+  }
+  .stat-box.dark-box { background: #1a1a2e; }
+
+  /* LAYOUT GRIDS */
+  .row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    margin-bottom: 7px;
+  }
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 7px;
+    margin-bottom: 7px;
+  }
+  .row-full { margin-bottom: 7px; }
+
+  /* CARDS */
+  .card {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 8px;
+  }
+  .card.accent {
+    background: #fff5f5;
+    border-color: #e8b4b0;
+  }
+  .card.dark {
+    background: #1a1a2e;
+    border-color: #1a1a2e;
+  }
+
+  h3 {
+    font-size: 7pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #c0392b;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+  }
+  .card.dark h3 {
+    color: #e74c3c;
+    border-bottom-color: #444;
+  }
+
+  p {
+    font-size: 7.5pt;
+    color: #111;
+    margin-bottom: 3px;
+  }
+  .card.dark p { color: #fff; }
+
+  ul { padding-left: 11px; }
+  ul li {
+    font-size: 7.5pt;
+    color: #111;
+    margin-bottom: 1.5px;
+  }
+  .card.dark ul li { color: #fff; }
+
+  /* TABLE */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7pt;
+  }
+  table th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 3px 5px;
+    text-align: left;
+    font-weight: 700;
+  }
+  table td {
+    padding: 2.5px 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #111;
+  }
+  table tr:nth-child(even) td { background: #f0f0f0; }
+  table tr:last-child td { border-bottom: none; }
+
+  /* Dark card table overrides — ALL text white/light */
+  .card.dark table th {
+    background: #c0392b;
+    color: #fff;
+  }
+  .card.dark table td {
+    color: #fff;
+    border-bottom-color: #333;
+    background: transparent;
+  }
+  .card.dark table tr:nth-child(even) td {
+    background: rgba(255,255,255,0.07);
+  }
+
+  /* LABELS */
+  .opp-label {
+    display: inline-block;
+    font-size: 6pt;
+    font-weight: 800;
+    padding: 1px 4px;
+    border-radius: 2px;
+    margin-right: 3px;
+    vertical-align: middle;
+  }
+  .opp-label.blue { background: #1f6fa8; color: #fff; }
+  .opp-label.orange { background: #c0670a; color: #fff; }
+
+  /* TICK / ARROW */
+  .tick::before { content: "✓ "; color: #1a7a3c; font-weight: 800; }
+  .arrow::before { content: "→ "; color: #c0392b; font-weight: 800; }
+
+  /* FOOTER */
+  .footer {
+    border-top: 1.5px solid #c0392b;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4px;
+  }
+  .footer-left {
+    font-size: 6pt;
+    color: #222;
+    line-height: 1.6;
+  }
+  .footer-left strong { color: #111; }
+  .footer-right {
+    font-size: 6pt;
+    color: #222;
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  /* schema note */
+  .schema-note {
+    font-size: 6.5pt;
+    color: #444;
+    margin-top: 3px;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <h1>NERIS: The New National Fire Incident Data Standard</h1>
+    <h2>Opportunities for the Actuarial &amp; Insurance Community — Replacing NFIRS (1973–2025)</h2>
+    <div style="margin-top:3px;">
+      <span style="background:#1a1a2e; color:#e74c3c; font-size:7pt; font-weight:800; padding:2px 8px; border-radius:2px; letter-spacing:1px; text-transform:uppercase;">⬡ Project Crucible</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <strong>Prepared for:</strong><br>
+    Arizona Captive Insurance Association<br>
+    Casualty Actuaries of the Desert States<br>
+    May 2026
+  </div>
+</div>
+
+<!-- CALLOUT -->
+<div class="callout">
+  NFIRS — the 40-year-old national fire reporting system — was decommissioned in early 2026. NERIS, its modern successor, is now live: standardized, near-real-time, geospatial fire incident data for ~27,000 U.S. fire &amp; EMS departments.
+</div>
+
+<!-- STAT ROW -->
+<div class="stat-row">
+  <div class="stat-box">
+    <div class="num">~27,000</div>
+    <div class="label">Fire &amp; EMS Depts. Targeted</div>
+  </div>
+  <div class="stat-box dark-box">
+    <div class="num">&lt;24 hrs</div>
+    <div class="label">Data Lag (was 6–18 months)</div>
+  </div>
+  <div class="stat-box">
+    <div class="num">3</div>
+    <div class="label">Incident Types per Record (vs. 1 in NFIRS)</div>
+  </div>
+  <div class="stat-box dark-box">
+    <div class="num">$0</div>
+    <div class="label">Cost to Fire Depts. &amp; Verified Research Orgs</div>
+  </div>
+</div>
+
+<!-- 3-COL: WHAT IS / FIELDS / COMPARISON -->
+<div class="row-3">
+
+  <div class="card">
+    <h3>What Is NERIS?</h3>
+    <p>The <strong>National Emergency Response Information System</strong> is a cloud-based, all-hazards incident reporting platform built by the <strong>Fire Safety Research Institute (FSRI / UL Research Institutes)</strong> with the <strong>U.S. Fire Administration (USFA)</strong> and <strong>DHS S&amp;T Directorate</strong>.</p>
+    <p>NERIS replaced NFIRS on <strong>January 1, 2026</strong>. First live incident: January 2025. Nationwide rollout completed across all FEMA regions through 2025.</p>
+    <p><strong>Governance:</strong> Departments own their data. The platform aggregates and anonymizes for national publication — no PII in public feeds.</p>
+  </div>
+
+  <div class="card">
+    <h3>Key Data Fields Captured</h3>
+    <ul>
+      <li><span class="tick"></span>Incident type (multi-tag: fire, EMS, hazmat, WUI, etc.)</li>
+      <li><span class="tick"></span>Geospatial coordinates (GIS-native lat/lon)</li>
+      <li><span class="tick"></span>Location type &amp; property use classification</li>
+      <li><span class="tick"></span>Dispatch, en-route, arrival &amp; clear timestamps</li>
+      <li><span class="tick"></span>Suppression tactics &amp; actions taken</li>
+      <li><span class="tick"></span>Civilian &amp; firefighter casualties / rescues</li>
+      <li><span class="tick"></span>Property loss &amp; contents loss (structured)</li>
+      <li><span class="tick"></span>Detector / suppression system performance</li>
+      <li><span class="tick"></span>CAD/dispatch pre-population (automated)</li>
+    </ul>
+    <p class="schema-note">Schema: github.com/ulfsri/neris-framework (public)</p>
+  </div>
+
+  <div class="card">
+    <h3>NFIRS vs. NERIS</h3>
+    <table>
+      <tr><th>Attribute</th><th>NFIRS</th><th>NERIS</th></tr>
+      <tr><td>Data lag</td><td>6–18 months</td><td>&lt;24 hours</td></tr>
+      <tr><td>Incident types</td><td>Single code</td><td>Up to 3 tags</td></tr>
+      <tr><td>Geospatial</td><td>Address only</td><td>GIS-native</td></tr>
+      <tr><td>API access</td><td>None</td><td>RESTful (public)</td></tr>
+      <tr><td>Property loss</td><td>Ranges</td><td>Structured fields</td></tr>
+      <tr><td>Response times</td><td>Limited</td><td>Granular timestamps</td></tr>
+      <tr><td>Format</td><td>Numeric codes</td><td>Plain-language</td></tr>
+      <tr><td>Public data</td><td>Annual bulk</td><td>API + near-real-time</td></tr>
+    </table>
+  </div>
+
+</div>
+
+<!-- 2-COL: OPPORTUNITIES + ACCESS -->
+<div class="row-2">
+
+  <div class="card accent">
+    <h3>Two Classes of Opportunity for Insurance &amp; Actuarial Professionals</h3>
+    <p style="margin-bottom:3px;"><span class="opp-label blue">CLASS 1</span> <strong>Cooperative Data Partnerships</strong> — Direct access to department-level (non-aggregated) data via data-use agreements with departments, State Fire Marshals, or FSRI/USFA:</p>
+    <ul style="margin-bottom:5px;">
+      <li><span class="arrow"></span>Hyper-local response time analysis for property underwriting</li>
+      <li><span class="arrow"></span>Suppression system effectiveness for commercial risk classification</li>
+      <li><span class="arrow"></span>WUI incident density overlaid with policy portfolios</li>
+      <li><span class="arrow"></span>ISO/PPC rating validation and improvement support</li>
+    </ul>
+    <p style="margin-bottom:3px;"><span class="opp-label orange">CLASS 2</span> <strong>Public Aggregated / API Feed</strong> — Free, PII-free, near-real-time national data available to verified organizations:</p>
+    <ul>
+      <li><span class="arrow"></span>Dynamic ISO score modeling using actual incident &amp; response metrics</li>
+      <li><span class="arrow"></span>Community Risk Reduction (CRR) data for loss-prevention credits</li>
+      <li><span class="arrow"></span>Statewide trend analysis for rate-making &amp; catastrophe modeling</li>
+      <li><span class="arrow"></span>Academic research partnerships (SOA, CAS curriculum)</li>
+    </ul>
+  </div>
+
+  <div class="card dark">
+    <h3>Data Access Pathways</h3>
+    <table>
+      <tr>
+        <th>Channel</th><th>Who</th><th>Cost</th>
+      </tr>
+      <tr><td>NERIS Public API</td><td>Verified orgs</td><td>Free</td></tr>
+      <tr><td>Aggregated Download</td><td>Public/researchers</td><td>Free</td></tr>
+      <tr><td>Dept.-level DUA</td><td>Negotiated</td><td>TBD</td></tr>
+      <tr><td>State Fire Marshal</td><td>State-level</td><td>Varies</td></tr>
+      <tr><td>NFIRS Historical</td><td>OpenFEMA</td><td>Free</td></tr>
+    </table>
+    <p style="margin-top:6px;"><strong style="color:#e74c3c;">ISO / PPC Link:</strong> Fire department reporting completeness and response performance data in NERIS directly factors into ISO Public Protection Classification (PPC) scores — the metric driving homeowner and commercial property premiums. Better data = demonstrable PPC improvement.</p>
+    <p style="margin-top:4px;"><strong style="color:#e74c3c;">Historical Baseline:</strong> 45 years of NFIRS data (1980–2025) on OpenFEMA for retrospective analysis.</p>
+  </div>
+
+</div>
+
+<!-- PILOT ROW -->
+<div class="row-full">
+  <div class="card" style="border-color:#c0392b; border-width:1.5px;">
+    <h3>Proposed Pilot: Project Crucible — Arizona Fire Risk Data Pipeline</h3>
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;">
+      <div>
+        <p><strong>Phase 1 — Connect:</strong> Establish API integration with NERIS aggregated feed for Arizona incident data. Map NERIS geospatial fields to existing property/policy databases.</p>
+      </div>
+      <div>
+        <p><strong>Phase 2 — Analyze:</strong> Apply ISO 31010 risk methodology to response time, suppression performance, and property-loss fields. Identify underwriting gaps in WUI and high-risk corridors.</p>
+      </div>
+      <div>
+        <p><strong>Phase 3 — Underwrite:</strong> Deliver dynamic risk scoring to captive and standard market carriers — enabling accurate rating of previously uninsurable fire-risk properties.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-left">
+    <strong>Sources:</strong> USFA/FEMA (usfa.fema.gov/nfirs/neris) · FSRI/UL Research Institutes (neris.fsri.org) · NERIS Schema (github.com/ulfsri/neris-framework)<br>
+    NC OSFM · NY DHSES · Nebraska State Fire Marshal · Texas Dept. of Insurance · International Fire &amp; Safety Journal (Jan 2026)
+  </div>
+  <div class="footer-right">
+    Richards+ / Linked Trust / AI Trailblazers / University of Arizona Risk Runners<br>
+    jefferson@richards.plus · 520.981.3639 · richards.plus
+  </div>
+</div>
+
+</body>
+</html>
