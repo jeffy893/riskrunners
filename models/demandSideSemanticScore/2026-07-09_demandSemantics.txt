@@ -1,0 +1,107 @@
+High level - I like the segmentation between existence and sentiment. 
+
+Generating ordered sets seems like a laborious process. Is this dynamic or something we will need to pull together from an external data source?
+
+Let’s talk tomorrow. I’m going to be pretty busy today. 
+
+Sent from my iPhone
+
+On Jul 22, 2018, at 4:06 PM, Jefferson Richards <jefferson.f.richards@gmail.com> wrote:
+
+It took almost 2.5 years, but I think I have the method for demand-side semantic scoring.
+
+Decompose event into Phen
+ML to clean up
+Separate Subjects and Concepts
+Business Rules --> Reduce Concepts
+Blue Word remaining Concepts after reduction
+Generate Ordered Sets for Existence relation and Sentiment relation
+(I will explain the reason for this later. It is based on the semantic logic of relations and functions. I learned about it in my proofs class. I think this is the key to converting qualitative into quantitative.)
+Existence Relation
+Use frequency of blue words in article to order
+Sentiment Relation
+Use physical proximity of concepts to subjects in article
+Notice how I am not including sentiment primes
+(What do you think about this?)
+e.g. "loss" is 5 Phen away from "US economy"
+
+Determine probabilities
+ Start linear
+Update model with known probabilities
+ML to train model
+
+Here is an example:
+
+Trump threatens tariffs on all $500 billion of Chinese imports
+2018-07-21 00:21:01.907
+
+https://www.reuters.com/article/us-usa-trade-china/trump-threatens-tariffs-on-all-500-billion-of-chinese-imports-idUSKBN1KA18Q?feedType=RSS&feedName=businessNews
+Keyword: risk
+
+"The escalating trade war, if it goes badly, could be a risk for the US economy," Bullard said, adding he understands the policy's objective.
+
+Event after Phen Decomposition
+
+{[time],[subjects],[concepts],[primes]}
+{[2018-07-21 00:21:01.907],[Bullard,US Economy],[escalating trade war, risk, policy's objectives], [badly,goes,be,said,he,understands]}
+
+A few blue words = {loss, risk, tariff}. Only use blue word for existence relations (ask me to explain this later. Essentially, existence relation requires decomp into attributes; sentiment relation does not. I think this is the reason why sentiment analysis is so prevalent right now. Missing half the picture. Positive statements vs. Normative statements)
+
+Ordered Sets Determined by 5.1.1 and 5.2.1 above (did manually this time)
+Bullard Existence Relation: {loss,risk,tariff}
+Bullard Sentiment Relation: {policy's objective,escalating trade war,risk}
+US Economy Existence Relation: {risk,tariff,loss}
+US Economy Sentiment Relation: {risk,policy's objective,escalating trade war}
+
+{a,b,c} = a is "less probable than" b and b is "less probably than" c
+
+
+I will focus on only one relation to generate a function
+Bullard Existence Relation: {loss,risk,tariff}
+
+To complete the ordered set, we determine the antonyms of each concept:
+Bullard Existence Relation: {loss,risk,tariff} - {gain, impossibility, rebate}
+p(gain) = 1 - p(loss)
+p(impossibility) = 1 - p(risk)
+p(rebate) = 1 - p(tariff)
+
+When we do not know the probability of any of the  [this is a function -->]    Existence(Bullard), we assume the probability to be linearly distributed:
+{loss,risk,tariff} - {rebate, impossibility, gain}
+{1/6,2/6,3/6} - {...}
+{0.167, 0.333, 0.5} - {0.5, 0.667, 0.8333}
+
+(Would have worked better with more than 3 concepts because rebate and tariff are both 0.5)
+
+Which would be a linear distribution when the sets are combined
+--> {loss,risk,tariff/rebate,impossibility,gain}
+--> {0.167, 0.333, 0.5, 0.667, 0.8333}
+
+Interpretation without knowing true probabilities: "There is a 50/50% chance that it is impossible for there to be a gain with a tariff/rebate." (Like, come on Bullard - you fucking fence rider)
+
+Let's say we know the probability of the existence of a tariff is 0.65, then the probabilities become:
+{loss,risk,tariff} - {rebate, impossibility, gain}
+{(1-0.65)x(1/3) , (1-0.65)x(2/3) , 0.65} - {...}
+{0.11667, 0.23333, 0.65} - {0.35, 0.76667, 0.88333}
+
+Which allows us to combine and order the entire set:
+{loss,risk,rebate,tariff,impossibility,gain}
+{0.11667,0.23333, 0.35,0.65,0.76667, 0.88333}
+
+<20180722_Demand_Side_Semantic_Scoring.jpeg>
+Before p(tariff) on left
+After p(tariff) on right​
+
+
+
+As you can see, the distribution becomes more normalized once one of the probabilities is known
+
+I still need to interpret the resulting ordered sets (may be case by case until we come up with business rules), but for this case:
+{loss,risk,rebate,tariff,impossibility,gain}
+{0.11667,0.23333, 0.35,0.65,0.76667, 0.88333}
+
+"Running a simulation of the events that Bullard expresses to exist, and we know that the possibility of a tariff is 0.65, the most likely outcome is that it is impossible that there will be a gain with tariffs, and there will be low risk of loss with rebates (opposite of tariff)."
+
+Same probability process for Sentiment but slightly different interpretation.
+
+Let's assume same ordered set for sentiment function:
+"Running a simulation of the events that Bullard feels about, and Bullard feels that the possibility of a tariff is 0.65, the most likely outcome is that Bullard will feel that is impossible for there to be a gain with tariffs, and feel there is less risk of loss with rebates (opposite of tariff)" (what a pussy)

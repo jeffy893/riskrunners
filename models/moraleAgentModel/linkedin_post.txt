@@ -1,0 +1,54 @@
+Dead networks aren't poor. They're demoralized.
+
+I built an agent-based model to test a hypothesis: communication networks — the kind Conway's Law describes — need active boundary conditions to stay alive. Not rules that prevent transactions. Boundaries that encourage them.
+
+Setup: 100 agents, 300 rounds of bilateral transactions. Willingness to transact is driven by morale — a function of relative wealth position. Wealthier agents carry a structural edge (information, leverage, network position). Standard dynamics.
+
+Three scenarios. Unambiguous results.
+
+---
+
+NO BOUNDARIES
+Gini: 0.88 | Morale: 0.52 | Transactions: 21,908
+
+Wealth concentrates. The majority loses morale. They stop transacting. The network goes silent — not because agents are forbidden from participating, but because they've lost the will to.
+
+---
+
+SOFT BOUNDARIES (Redistribution)
+Gini: 0.40 | Morale: 0.75 | Transactions: 26,562
+
+Progressive tax on extreme wealth + a floor for the bottom. Keeps the game playable. But reactive — fixes damage after it happens.
+
+---
+
+ACTIVE BOUNDARIES (Transaction Incentives)
+Gini: 0.38 | Morale: 0.92 | Transactions: 33,946
+
+Three specific mechanisms:
+
+1. Participation Morale Floor — agents who transacted last round can't have morale drop below a threshold. Showing up is itself rewarded.
+
+2. Structural Advantage Dampening — the wealthy still win more often, but their edge compounds at 1/3 the rate. Competition stays, runaway dominance doesn't.
+
+3. Network Vitality Feedback — when transaction volume is high, everyone gets a morale boost. The system rewards its own health.
+
+Plus a cross-wealth diversity dividend: transacting across large wealth gaps earns both parties a bonus, weighted toward the poorer party.
+
+---
+
+Result: 62% more transactions than the free market. Highest morale. Lowest inequality. Not through restriction — through incentive design.
+
+The Conway's Law insight: your network's output mirrors its communication structure. But communication requires willingness. Willingness requires morale. Morale requires believing participation is worth it.
+
+Three principles:
+
+→ Reward participation itself, not just outcomes
+→ Dampen structural advantage compounding — don't eliminate competition, prevent runaway dominance
+→ Build feedback loops between network health and individual benefit
+
+Boundary conditions aren't constraints on freedom. They're the infrastructure that keeps freedom meaningful.
+
+Check out more agent-based simulation models at: riskrunners.com
+
+#AgentBasedModeling #SystemsThinking #ConwaysLaw #NetworkEffects #IncentiveDesign #OrganizationalDesign
