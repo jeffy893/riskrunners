@@ -1,0 +1,7 @@
+time,unit_id,market,risk_type,gc_id
+39.70696249067367,student_2,student,utility_failure,2
+140.3284977315069,multigen_6,multigen,construction_defect,7
+169.70696249067367,student_6,student,construction_defect,4
+266.7467075418274,student_11,student,schedule_delay,3
+305.3284977315069,student_14,student,utility_failure,1
+363.3284977315069,multigen_13,multigen,schedule_delay,5

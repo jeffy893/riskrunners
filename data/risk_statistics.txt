@@ -1,0 +1,12 @@
+MONTE CARLO SIMULATION RESULTS
+============================================================
+
+mean_final_capital: $7,424,576.17
+median_final_capital: $7,431,349.76
+std_final_capital: $129,435.93
+min_final_capital: $6,927,488.61
+max_final_capital: $7,831,768.16
+probability_of_ruin: 0.0000
+mean_solvency_ratio: 164.9906
+percentile_5_capital: $7,201,366.40
+percentile_95_capital: $7,625,095.63
